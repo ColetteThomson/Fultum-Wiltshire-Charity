@@ -1,8 +1,13 @@
-body {
-    font-family: Arial;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
-#horizontal {
-    padding-left: 100px;
-    display: block;
+body {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
 }
+
