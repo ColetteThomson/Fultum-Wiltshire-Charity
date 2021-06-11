@@ -32,11 +32,6 @@ h1 {
     font-size: 200%;
 }
 
-/* #logo-byline {
-    text-align: left;
-    margin-top: 3%;
-} */
-
 /* navigation menu */
 #menu {
     font-size: 110%;
@@ -55,7 +50,7 @@ h1 {
 
 #menu a {
     text-decoration: none;
-    color: #428a5fff;
+    color: white;
 }
 
 #menu a:hover {
@@ -63,10 +58,10 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #428a5fff;
+    border-bottom: 1px solid white;
 }
 
-/* home page background image */
+/* home page background image and key messages text*/
 
 #homepage-background {
     height: 600px;
@@ -75,3 +70,27 @@ h1 {
     background-color: skyblue;
     background-size: cover;
 }
+
+#key-messages, #key-messages p {
+    color: #537dc5ff;
+}
+
+#key-messages {
+    font-size: 160%;
+    letter-spacing: 2px;
+    line-height: 30px;
+
+    width:fit-content;
+    height: 280px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(243, 236, 238, .7);
+
+    left: 30px;
+    top: 100px;
+
+    position: absolute;
+}
+    
