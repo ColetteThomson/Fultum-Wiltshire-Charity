@@ -21,6 +21,11 @@ body {
 
 /* headings and logo */
 
+.logo-special-effect {
+    color: rgb(206, 81, 8);
+    text-shadow: 0 0 3px white, 0 0 10px white;
+}
+
 h1 {
     font-family: DM+Sans, sans-serif;
     color: #6e4d93ff;
