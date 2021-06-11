@@ -65,3 +65,13 @@ h1 {
 .active {
     border-bottom: 1px solid #428a5fff;
 }
+
+/* home page background image */
+
+#homepage-background {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/breaking-free-of-handcuffs.jpg');
+    background-color: skyblue;
+    background-size: cover;
+}
