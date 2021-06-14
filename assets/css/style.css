@@ -62,7 +62,7 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* home page background image and key messages text*/
+/* home page background image */
 #homepage-outer {
     height: 600px;
     width: 100%;
@@ -73,23 +73,31 @@ h2 {
     height: 600px;
     width: 100%;
     background-image: url('../images/breaking-free-of-handcuffs.jpg');
-    background-color: skyblue;
+    background-color: rgb(25, 119, 207);
     background-size: cover;
+    background-repeat: no-repeat;
 }
+
+/* main section containing three key messages */
 .key-messages {
-    font-size: 160%;
+    font-size: 120%;
     letter-spacing: 2px;
     line-height: 30px;
-    
+        
     background-color: rgba(243, 236, 238, .7);
-    width: fit-content;
+    width: 60%;
     height: fit-content;
     display: inline-block;
     padding: 20px 10px;
-    left: 30px;
+    right: 20px;
+    left: 20px;
     top: 30px;
     position: relative;
     clear: both;
+}
+
+.key-messages > h2 {
+    color: #3a3a3a;
 }
 
 /* two right aligned boxes, one under the other */
@@ -103,8 +111,8 @@ h2 {
     color: black;
     letter-spacing: 2px;
     line-height: 30px;
-       
-    padding: 20px 20px;
+           
+    padding: 20px 10px;
     right: 30px;
     top: 10px;
     display: inline-block;
@@ -142,4 +150,33 @@ footer {
     margin: 1%;
     padding: 1%;
     color:#3a3a3a;
+}
+
+/* media queries */
+
+/* large to medium screens - applied when screen width is 1200px and below */
+@media screen and (max-width: 1200px) {
+    .key-messages {
+        font-size: 90%;
+        width: 90%;
+        height: fit-content;
+        padding: 30px;
+        left: 27px;
+    }
+
+    #div-right, .right-about {
+        width: 94.5%;
+        float: left;
+        padding: 30px;
+        left: 0px;
+    }
+
+    .right-about-background {
+        width: 94.5%;
+        height: fit-content;
+        float: left;
+        margin: 0;
+        padding: 30px;
+        left: 0px; 
+    }
 }
