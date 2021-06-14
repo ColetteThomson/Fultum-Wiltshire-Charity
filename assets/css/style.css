@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
 
-/* CSS HEX color palette: from Coolors
---snow: #f3eceeff;
---glaucous: #537dc5ff;
---royal-purple: #6e4d93ff;
---amaranth: #da495aff;
---sea-green: #428a5fff; */
-
 * {
     margin: 0;
     padding: 0;
@@ -122,4 +115,31 @@ h2 {
 .right-about-background {
     background-color: rgba(255, 202, 75, .7);
     padding: 20px 20px;
+}
+
+/* footer */
+footer {
+    height: 60px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 110%;
+    margin: 1%;
+    padding: 1%;
+    color:#3a3a3a;
+}
+.contact-info > li {
+    display: inline;
+    font-size: small;
+    margin: 1%;
+    padding: 1%;
+    color:#3a3a3a;
 }
