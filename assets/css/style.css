@@ -144,6 +144,11 @@ footer {
     padding: 1%;
     color:#3a3a3a;
 }
+
+.contact-info {
+    text-align: center;
+}
+
 .contact-info > li {
     display: inline;
     font-size: small;
@@ -178,5 +183,9 @@ footer {
         margin: 0;
         padding: 30px;
         left: 0px; 
+    }
+
+    .contact-info > li {
+       font-size: xx-small;
     }
 }
