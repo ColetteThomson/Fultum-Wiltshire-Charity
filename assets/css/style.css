@@ -79,7 +79,7 @@ h2 {
 }
 
 /* main section containing three key messages */
-.key-messages {
+.main-text {
     font-size: 120%;
     letter-spacing: 2px;
     line-height: 30px;
@@ -96,7 +96,7 @@ h2 {
     clear: both;
 }
 
-.key-messages > h2 {
+.main-text > h2 {
     color: #3a3a3a;
 }
 
@@ -161,7 +161,7 @@ footer {
 
 /* large to medium screens (desktop and laptop) - applied when screen width is 1200px and below */
 @media screen and (max-width: 1200px) {
-    .key-messages {
+    .main-text {
         font-size: 90%;
         width: 90%;
         height: fit-content;
@@ -177,12 +177,12 @@ footer {
     }
 
     .right-about-background {
-        width: 94.5%;
+        width: 94.5%; 
         height: fit-content;
-        float: left;
+        float: left; 
         margin: 0;
         padding: 2em;
-        left: .1em; 
+        left: .1em;
     }
 
     .contact-info > li {
@@ -193,40 +193,80 @@ footer {
 /* medium to small screens (tablet) - applied when screen width is 950px and below */
 @media screen and (max-width: 950px) {
    
+    #logo {
+        font-size: 150%;
+        margin-left: 1em;
+    }
 
-   
-    #menu {
-        font-size: small;
+    h1 {
         letter-spacing: normal;
-        
-        clear: left;
-        float: right;
-        margin: 1em;
-        line-height: 25px;
-        padding: 0em;
+    }
+       
+    #menu, #logo {
+         line-height: 50px;
+    }
+
+    #menu {
+        font-size: 90%;
+        letter-spacing: normal;
     }
 
     #menu li {
         float: right;
-        margin: 1em;
-        padding: 0em;
+        margin-right: 1em;
+    }
+
+    .main-text {
+        font-size: 90%;
+        width: 90%;
+        height: fit-content;
+        padding: 2em;
+        left: 2em;
+    }
+
+    #div-right, .right-about {
+        width: 94.5%;
+        float: left;
+        padding: 2em;
+        left: .1em;
+    }
+
+    .right-about-background {
+        width: 94.5%; 
+        height: fit-content;
+        float: left; 
+        margin: 0;
+        padding: 2em;
+        left: .1em;
+    }
+
+    .contact-info > li {
+       font-size: xx-small;
+    }
+
+/* small screens (mobile phones) - applied when screen width is 430px and below */
+@media screen and (max-width: 430px) {
+    #logo {
+        font-size: 70%;
+        margin-left: 1em;
+    }
+
+    h1 {
+        letter-spacing: normal;
+    }
+       
+    #menu, #logo {
+         line-height: 30px;
+    }
+
+    #menu {
+        font-size: 40%;
+        letter-spacing: normal;
+    }
+
+    #menu li {
+        float: right;
+        margin-right: 1em;
+    }
+
 }
-
-/* small screens (mobile phones) - applied when screen width is 950px and below 
-@media screen and (max-width: 950px) {
-    #menu {
-        font-size: xx-small;
-        letter-spacing: normal;
-        
-        clear: left;
-        float: right;
-        margin: 1em;
-        line-height: 25px;
-        padding: 0em;
-    }
-
-    #menu li {
-        float: right;
-        margin: 1em;
-        padding: 0em;
-} */
