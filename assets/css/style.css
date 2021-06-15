@@ -78,7 +78,7 @@ h2 {
     background-repeat: no-repeat;
 }
 
-/* main section containing three key messages */
+/* main text section on left of every page*/
 .main-text {
     font-size: 120%;
     letter-spacing: 2px;
@@ -151,7 +151,7 @@ footer {
 
 .contact-info > li {
     display: inline;
-    font-size: small;
+    font-size: 1em;
     margin: 1%;
     padding: 1%;
     color:#3a3a3a;
@@ -186,7 +186,7 @@ footer {
     }
 
     .contact-info > li {
-       font-size: xx-small;
+       font-size: .7em;
     }
 }
 
@@ -241,7 +241,7 @@ footer {
     }
 
     .contact-info > li {
-       font-size: xx-small;
+       font-size: .5em;
     }
 
 /* small screens (mobile phones) - applied when screen width is 430px and below */
@@ -269,4 +269,12 @@ footer {
         margin-right: 1em;
     }
 
+
+
+    .contact-info > li {
+        display: inline-flex;
+        font-size: .15em;
+        margin: 1em;
+        padding: 1em;
+    }
 }
