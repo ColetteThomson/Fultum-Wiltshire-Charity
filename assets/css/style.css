@@ -159,21 +159,21 @@ footer {
 
 /* media queries */
 
-/* large to medium screens - applied when screen width is 1200px and below */
+/* large to medium screens (desktop and laptop) - applied when screen width is 1200px and below */
 @media screen and (max-width: 1200px) {
     .key-messages {
         font-size: 90%;
         width: 90%;
         height: fit-content;
-        padding: 30px;
-        left: 27px;
+        padding: 2em;
+        left: 2em;
     }
 
     #div-right, .right-about {
         width: 94.5%;
         float: left;
-        padding: 30px;
-        left: 0px;
+        padding: 2em;
+        left: .1em;
     }
 
     .right-about-background {
@@ -181,11 +181,52 @@ footer {
         height: fit-content;
         float: left;
         margin: 0;
-        padding: 30px;
-        left: 0px; 
+        padding: 2em;
+        left: .1em; 
     }
 
     .contact-info > li {
        font-size: xx-small;
     }
 }
+
+/* medium to small screens (tablet) - applied when screen width is 950px and below */
+@media screen and (max-width: 950px) {
+   
+
+   
+    #menu {
+        font-size: small;
+        letter-spacing: normal;
+        
+        clear: left;
+        float: right;
+        margin: 1em;
+        line-height: 25px;
+        padding: 0em;
+    }
+
+    #menu li {
+        float: right;
+        margin: 1em;
+        padding: 0em;
+}
+
+/* small screens (mobile phones) - applied when screen width is 950px and below 
+@media screen and (max-width: 950px) {
+    #menu {
+        font-size: xx-small;
+        letter-spacing: normal;
+        
+        clear: left;
+        float: right;
+        margin: 1em;
+        line-height: 25px;
+        padding: 0em;
+    }
+
+    #menu li {
+        float: right;
+        margin: 1em;
+        padding: 0em;
+} */
