@@ -276,7 +276,35 @@ footer {
         margin-right: 1em;
     }
 
+    .main-text-homepage {
+        font-size: 50%;
+        width: 90%;
+        height: fit-content;
+        line-height: 15px;
+        left: 1.7em;
+    }
 
+    #div-right, .right-about {
+        font-size: 65%;
+        letter-spacing: 2px;
+        line-height: 20px;
+        width: 94%;
+        float: left;
+        padding: 2.4em 1em;
+        left: .09em;
+    }
+
+    .right-about-background > h2 {
+        font-size: 125%;
+    } 
+
+    .right-about-background {
+        width: 94%; 
+        height: fit-content;
+        float: left; 
+        padding: 2.4em 1em;
+        left: .09em;
+    }
 
     .contact-info > li {
         display: inline-flex;
