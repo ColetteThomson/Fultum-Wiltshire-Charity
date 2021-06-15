@@ -78,8 +78,8 @@ h2 {
     background-repeat: no-repeat;
 }
 
-/* main text section on left of every page*/
-.main-text {
+/* main text section on left of page*/
+.main-text-homepage {
     font-size: 120%;
     letter-spacing: 2px;
     line-height: 30px;
@@ -96,7 +96,7 @@ h2 {
     clear: both;
 }
 
-.main-text > h2 {
+.main-text-homepage > h2 {
     color: #3a3a3a;
 }
 
@@ -159,9 +159,9 @@ footer {
 
 /* media queries */
 
-/* large to medium screens (desktop and laptop) - applied when screen width is 1200px and below */
+/* large to medium screens (DESKTOP / LAPTOP) - applied when screen width is 1200px and below */
 @media screen and (max-width: 1200px) {
-    .main-text {
+    .main-text-homepage {
         font-size: 90%;
         width: 90%;
         height: fit-content;
@@ -190,7 +190,7 @@ footer {
     }
 }
 
-/* medium to small screens (tablet) - applied when screen width is 950px and below */
+/* medium to small screens (TABLET) - applied when screen width is 950px and below */
 @media screen and (max-width: 950px) {
    
     #logo {
@@ -216,28 +216,35 @@ footer {
         margin-right: 1em;
     }
 
-    .main-text {
-        font-size: 90%;
-        width: 90%;
+    .main-text-homepage {
+        font-size: 60%;
+        width: 92%;
         height: fit-content;
-        padding: 2em;
-        left: 2em;
+        line-height: 20px;
+        padding: 1em;
+        left: 1.7em;
     }
 
     #div-right, .right-about {
-        width: 94.5%;
+        font-size: 80%;
+        letter-spacing: 2px;
+        line-height: 20px;
+        width: 96%;
         float: left;
-        padding: 2em;
-        left: .1em;
+        padding: 2.2em 1em;
+        left: .09em;
     }
 
+    .right-about-background > h2 {
+        font-size: 125%;
+    } 
+
     .right-about-background {
-        width: 94.5%; 
+        width: 95%; 
         height: fit-content;
         float: left; 
-        margin: 0;
-        padding: 2em;
-        left: .1em;
+        padding: 2em 1em;
+        left: .08em;
     }
 
     .contact-info > li {
