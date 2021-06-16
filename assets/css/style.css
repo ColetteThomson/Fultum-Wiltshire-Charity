@@ -101,6 +101,10 @@ h2 {
     color: #3a3a3a;
 }
 
+.link-color {
+    color: rgb(206, 81, 8);
+}
+
 /* right aligned box */
 #div-right {
     position: relative;
