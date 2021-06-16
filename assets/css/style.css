@@ -105,7 +105,7 @@ h2 {
     color: rgb(206, 81, 8);
 }
 
-/* right aligned box */
+/* right aligned section */
 #div-right {
     position: relative;
     float: right;
@@ -118,16 +118,18 @@ h2 {
     line-height: 30px;
 
     padding: 20px 10px;
+    top: 30px;
     right: 30px;
-    top: 10px;
-    display: inline-block;
-    width: 100%;
-    clear: both;
+
+    background-color: rgba(255, 202, 75, .7);
 }
 
-.right-about-background {
-    background-color: rgba(255, 202, 75, .7);
-    padding: 20px 20px;
+.right-box-h2-2nd {
+    padding-top: 10px;
+}
+
+.link-font-size {
+    font-size: 75%;
 }
 
 /* footer */
@@ -183,21 +185,28 @@ footer {
         left: 2em;
     }
 
-    #div-right,
-    .right-about {
-        width: 94.5%;
+    #div-right {
+        position: relative;
         float: left;
-        padding: 2em;
-        left: .1em;
+        width: 90%;
     }
 
-    .right-about-background {
-        width: 94.5%;
-        height: fit-content;
+    .right-about {
+        width: 90%;
         float: left;
-        margin: 0;
-        padding: 2em;
-        left: .1em;
+        padding: 1.3em;
+        margin-top: 1em;
+        left: 2.2em;
+        right: 3.2em;
+    }
+
+    .right-box-h2 {
+        font-size: 140%;
+    }
+
+    .right-box-h2-2nd {
+        font-size: 140%;
+        padding-top: 1em;
     }
 
     .contact-info>li {
@@ -245,27 +254,31 @@ footer {
         left: 1.7em;
     }
 
-    #div-right,
+    #div-right {
+        position: relative;
+        float: left;
+        width: 90%;
+    }
+
     .right-about {
         font-size: 80%;
-        letter-spacing: 2px;
         line-height: 20px;
-        width: 96%;
+
+        width: 90%;
         float: left;
-        padding: 2.2em 1em;
-        left: .09em;
+        padding: 1.3em;
+        margin-top: 1em;
+        left: 1.4em;
+        right: 3.2em;
     }
 
-    .right-about-background>h2 {
-        font-size: 125%;
+    .right-box-h2 {
+        font-size: 130%;
     }
 
-    .right-about-background {
-        width: 95%;
-        height: fit-content;
-        float: left;
-        padding: 2em 1em;
-        left: .08em;
+    .right-box-h2-2nd {
+        font-size: 130%;
+        padding-top: 1em;
     }
 
     .contact-info>li {
@@ -306,33 +319,37 @@ footer {
 
     .main-text-homepage {
         font-size: 50%;
-        width: 90%;
+        width: 88%;
         height: fit-content;
         line-height: 15px;
         left: 1.7em;
     }
 
-    #div-right,
+    #div-right {
+        position: relative;
+        float: left;
+        width: 85%;
+    }
+
     .right-about {
         font-size: 65%;
-        letter-spacing: 2px;
-        line-height: 20px;
-        width: 94%;
+        line-height: 15px;
+
+        width: 85%;
         float: left;
-        padding: 2.4em 1em;
-        left: .09em;
+        padding: 1.1em;
+        margin-top: 1em;
+        left: 1.4em;
+        right: 3.5em;
     }
 
-    .right-about-background>h2 {
-        font-size: 125%;
+    .right-box-h2 {
+        font-size: 130%;
     }
 
-    .right-about-background {
-        width: 94%;
-        height: fit-content;
-        float: left;
-        padding: 2.4em 1em;
-        left: .09em;
+    .right-box-h2-2nd {
+        font-size: 130%;
+        padding-top: 1em;
     }
 
     .contact-info>li {
