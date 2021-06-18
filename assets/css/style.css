@@ -16,13 +16,13 @@ body {
 
 h1 {
     font-family: DM+Sans, sans-serif;
-    color: rgb(206, 81, 8);
+    color: rgb(4, 99, 187);
     letter-spacing: 2px;
 }
 
 h2 {
     font-family: DM+Sans, sans-serif;
-    color: rgb(25, 119, 207);
+    color: rgb(206, 81, 8);
     letter-spacing: 2px;
 }
 
@@ -98,11 +98,19 @@ h2 {
 }
 
 .main-text-homepage>h2 {
-    color: #3a3a3a;
+    color: rgb(255, 202, 75);
+}
+
+.main-text-homepage>p {
+    color: rgb(255, 202, 75);
 }
 
 .link-color {
-    color: rgb(206, 81, 8);
+    color: rgb(233, 227, 227);
+}
+
+.link-font-size {
+    font-size: 90%;
 }
 
 /* right aligned section */
@@ -117,20 +125,18 @@ h2 {
     letter-spacing: 2px;
     line-height: 30px;
 
-    padding: 20px 10px;
+    padding: 20px 20px;
     top: 30px;
     right: 30px;
 
-    background-color: rgba(255, 202, 75, .7);
+    background-color: rgba(233, 227, 227, .7);
 }
 
-.right-box-h2-2nd {
-    padding-top: 10px;
+
+.right-about-link {
+    color: rgb(206, 81, 8);
 }
 
-.link-font-size {
-    font-size: 75%;
-}
 
 /* footer */
 footer {
@@ -158,10 +164,9 @@ footer {
 
 .contact-info>li {
     display: inline;
-    font-size: 1em;
+    font-size: 90%;
     margin: 1%;
     padding: 1%;
-    color: #3a3a3a;
 }
 
 /* media queries */
@@ -202,11 +207,6 @@ footer {
 
     .right-box-h2 {
         font-size: 140%;
-    }
-
-    .right-box-h2-2nd {
-        font-size: 140%;
-        padding-top: 1em;
     }
 
     .contact-info>li {
@@ -276,11 +276,6 @@ footer {
         font-size: 130%;
     }
 
-    .right-box-h2-2nd {
-        font-size: 130%;
-        padding-top: 1em;
-    }
-
     .contact-info>li {
         font-size: .5em;
     }
@@ -345,11 +340,6 @@ footer {
 
     .right-box-h2 {
         font-size: 130%;
-    }
-
-    .right-box-h2-2nd {
-        font-size: 130%;
-        padding-top: 1em;
     }
 
     .contact-info>li {
