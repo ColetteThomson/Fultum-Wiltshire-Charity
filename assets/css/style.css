@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Poppins, sans-serif;
+    font-family: 'poppins', sans-serif;
     font-weight: 400;
     color: #3a3a3a;
 }
@@ -15,19 +15,19 @@ body {
 /* headings and logo */
 
 h1 {
-    font-family: DM+Sans, sans-serif;
-    color: rgb(4, 99, 187);
+    font-family: 'roboto', sans-serif;
+    color: #0463bb;
     letter-spacing: 2px;
 }
 
 h2 {
-    font-family: DM+Sans, sans-serif;
-    color: rgb(206, 81, 8);
+    font-family: 'roboto', sans-serif;
+    color: #ce5108;
     letter-spacing: 2px;
 }
 
 #logo {
-    color: rgb(206, 81, 8);
+    color: #ce5108;
     float: left;
     font-size: 220%;
     margin-left: 30px;
@@ -56,7 +56,7 @@ h2 {
 }
 
 #menu a:hover {
-    color: #537dc5ff;
+    color: #0463bb;
 }
 
 .active {
@@ -74,18 +74,30 @@ h2 {
     height: 600px;
     width: 100%;
     background-image: url('../images/breaking-free-of-handcuffs.jpg');
-    background-color: rgb(73, 116, 153);
+    background-color: #497499;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 /* main text section on left of page*/
+
+.byline-homepage {
+    font-family: 'poppins', sans-serif;
+    font-size: 100%;
+    color: #e9e3e3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    background-color: rgba(206, 81, 8, .6);
+}
+
 .main-text-homepage {
     font-size: 120%;
     letter-spacing: 2px;
     line-height: 30px;
 
-    /*background-color: rgba(243, 236, 238, .7);*/
     width: 60%;
     height: fit-content;
     display: inline-block;
@@ -98,15 +110,12 @@ h2 {
 }
 
 .main-text-homepage>h2 {
-    color: rgb(255, 202, 75);
-}
-
-.main-text-homepage>p {
-    color: rgb(255, 202, 75);
+    color: #ffca4b;
+    letter-spacing: 4px;
 }
 
 .link-color {
-    color: rgb(233, 227, 227);
+    color: #e9e3e3;
 }
 
 .link-font-size {
@@ -132,11 +141,9 @@ h2 {
     background-color: rgba(233, 227, 227, .7);
 }
 
-
 .right-about-link {
-    color: rgb(206, 81, 8);
+    color: #ce5108;
 }
-
 
 /* footer */
 footer {
@@ -183,10 +190,10 @@ footer {
     }
 
     .main-text-homepage {
-        font-size: 90%;
+        font-size: 100%;
         width: 90%;
         height: fit-content;
-        padding: 2em;
+        padding: 0.5em;
         left: 2em;
     }
 
@@ -245,8 +252,14 @@ footer {
         background-position: center center;
     }
 
+    .byline-homepage {
+        font-size: 70%;
+        padding-left: 1.875em;
+        padding-right: 1.875em;
+    }
+
     .main-text-homepage {
-        font-size: 60%;
+        font-size: 80%;
         width: 92%;
         height: fit-content;
         line-height: 20px;
@@ -308,12 +321,17 @@ footer {
     }
 
     #homepage-background {
-        background-position: top center;
-        background-size: contain;
+        background-color: #497499;
+    }
+
+    .byline-homepage {
+        font-size: 50%;
+        padding-left: 1.875em;
+        padding-right: 1.875em;
     }
 
     .main-text-homepage {
-        font-size: 50%;
+        font-size: 45%;
         width: 88%;
         height: fit-content;
         line-height: 15px;
