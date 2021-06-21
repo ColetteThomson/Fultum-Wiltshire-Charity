@@ -124,14 +124,14 @@ i {
     float: right;
 }
 
-img {
+/*img {
     max-width: 100%;
     max-height: 100%;
-}
+}*/
 
-/* main text section on left of page*/
+/* main text section on left of page for 'homepage'*/
 
-.main-text-homepage {
+.main-body-homepage {
     font-size: 120%;
     letter-spacing: 2px;
     line-height: 30px;
@@ -147,10 +147,12 @@ img {
     clear: both;
 }
 
-.main-text-homepage>h2 {
+.main-body-homepage>h2 {
     color: #ffca4b;
     letter-spacing: 4px;
 }
+
+/* main text section on left of page for 'what we do'; 'get social'; 'about us' pages */
 
 .link-color {
     color: #e9e3e3;
@@ -239,7 +241,24 @@ footer {
         font-size: 100%;
     }
 
-    .main-text-homepage {
+    .banner {
+        height: 2.19em;
+        margin-left: 0.5em;
+        padding-top: 0.5em;
+        padding-left: 0.8em;
+    }
+    
+    .banner>h2 {
+        font-size: 110%;
+    }
+    
+    i {
+        margin: 4px;
+        padding-top: 3px;
+        float: right;
+    }
+
+    .main-body-homepage {
         font-size: 100%;
         width: 90%;
         height: fit-content;
@@ -308,7 +327,24 @@ footer {
         padding-right: 1.875em;
     }
 
-    .main-text-homepage {
+    .banner {
+        height: 1.875em;
+        margin-left: 0.5em;
+        padding-top: 0.5em;
+        padding-left: 0.94em;
+    }
+   
+    .banner>h2 {
+    font-size: 90%;
+    }
+
+    i {
+    margin: 0.25em;
+    padding-top: 0.18em;
+    float: right;
+    }
+
+    .main-body-homepage {
         font-size: 80%;
         width: 92%;
         height: fit-content;
@@ -380,7 +416,33 @@ footer {
         padding-right: 1.875em;
     }
 
-    .main-text-homepage {
+    /* #banner-outer {
+        height: 700px;
+        width: 100%;
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 0 1.25rem;
+    } */
+
+    .banner {
+        height: 1.3em;
+        width: 80%;
+        margin-left: 0;
+        padding-top: 0.4em;
+        padding-left: 0;
+    }
+   
+    .banner>h2 {
+    font-size: 65%;
+    }
+
+    i {
+    margin: 0.25em;
+    padding-top: 0.18em;
+    float: right;
+    }
+
+    .main-body-homepage {
         font-size: 45%;
         width: 88%;
         height: fit-content;
