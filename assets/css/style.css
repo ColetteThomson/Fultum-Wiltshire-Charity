@@ -9,6 +9,7 @@
 body {
     font-family: 'poppins', sans-serif;
     font-weight: 400;
+    font-size: 1px;
     color: #3a3a3a;
 }
 
@@ -29,6 +30,12 @@ h2 {
 h3 {
     font-family: 'roboto', sans-serif;
     color: #0463bb;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-family: 'roboto', sans-serif;
+    color: maroon;
     letter-spacing: 2px;
 }
 
@@ -164,10 +171,10 @@ i {
     width: 60%;
     height: fit-content;
     display: inline-block;
-    padding: 20px 10px;
+    padding: 10px 10px;
     right: 20px;
-    left: 20px;
-    top: 30px;
+    left: 10px;
+    top: 5px;
     position: relative;
     clear: both;
 }
