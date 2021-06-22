@@ -9,7 +9,7 @@
 body {
     font-family: 'poppins', sans-serif;
     font-weight: 400;
-    font-size: 1px;
+    font-size: 16px;
     color: #3a3a3a;
 }
 
@@ -31,12 +31,15 @@ h3 {
     font-family: 'roboto', sans-serif;
     color: #0463bb;
     letter-spacing: 2px;
+    padding-bottom: 5px;
 }
 
 h4 {
     font-family: 'roboto', sans-serif;
     color: maroon;
     letter-spacing: 2px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 #logo {
@@ -119,7 +122,7 @@ h4 {
     background-color: #ffca4b;
     height: 40px;
     width: 50%;
-    margin-left: 20px;
+    margin-left: 11px;
     padding-top: 15px;
     padding-left: 30px;
 }
@@ -137,18 +140,12 @@ i {
     float: right;
 }
 
-/*img {
-    max-width: 100%;
-    max-height: 100%;
-}*/
-
 /* main text section on left of page for 'homepage'*/
 
 .main-body-homepage {
     font-size: 120%;
     letter-spacing: 2px;
     line-height: 30px;
-
     width: 60%;
     height: fit-content;
     display: inline-block;
@@ -167,16 +164,51 @@ i {
 
 /* main text section on left of page for pages: 'what we do'; 'get social'; 'about us' */
 
-.main-body {
-    width: 60%;
+#text-image-container {
+    margin-top: 30px;
     height: fit-content;
-    display: inline-block;
+}
+
+.main-body-left {
+    width: 70%;
+    height: fit-content;
+    float: left;
     padding: 10px 10px;
     right: 20px;
     left: 10px;
     top: 5px;
-    position: relative;
     clear: both;
+} 
+
+.main-body-right {
+    width: 70%;
+    height: fit-content;
+    float: right;
+    padding: 5px 5px;
+    margin-right: 35px;
+    left: 10px;
+    top: 5px;
+    /*clear: both;*/
+} 
+
+/* image blocks - left and right */
+.image-left {
+    float: left;
+    height: 150px;
+    width: 20%;
+    margin-left: 20px;
+    padding: 8px 8px;
+    top: 20px;
+    right: 20px;
+    border-style: solid solid;
+    border-color: #ce5108;
+}
+
+img {
+    display: inline-block;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 /* links */
@@ -199,11 +231,9 @@ i {
     color: black;
     letter-spacing: 2px;
     line-height: 30px;
-
     padding: 20px 20px;
     top: 30px;
     right: 30px;
-
     background-color: rgba(233, 227, 227, .7);
 }
 
@@ -211,7 +241,7 @@ i {
     color: #ce5108;
 }
 
-.right-about-frame {
+/*.right-about-frame {
     color: black;
     letter-spacing: 2px;
     line-height: 30px;
@@ -221,7 +251,7 @@ i {
     right: 30px;
 
     background-color: #ce5108;
-}
+}*/
 
 /* footer */
 footer {
@@ -254,7 +284,7 @@ footer {
     padding: 1%;
 }
 
-/* media queries */
+/* MEDIA QUERIES */
 
 /* large to medium screens (DESKTOP / LAPTOP) - applied when screen width is 1200px and below */
 
