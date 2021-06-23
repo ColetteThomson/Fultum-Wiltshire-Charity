@@ -111,10 +111,10 @@ h4 {
 }
 
 #banner-outer {
-    height: 700px;
+    height: 690px;
     width: 100%;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 0;
     padding: 0 1.25rem;
 }
 
@@ -192,11 +192,37 @@ i {
 } 
 
 /* image blocks - left and right */
-.image-left {
+.image-left-1 {
     float: left;
     height: 150px;
     width: 20%;
-    margin-left: 20px;
+    margin-left: 12px;
+    padding: 8px 8px;
+    top: 20px;
+    right: 20px;
+    border-style: solid solid;
+    border-color: #ce5108;
+}
+
+.image-left-2 {
+    float: left;
+    height: 150px;
+    width: 20%;
+    margin-left: 30px;
+    padding: 8px 8px;
+    top: 20px;
+    right: 20px;
+    border-style: solid solid;
+    border-color: #ce5108;
+}
+
+.image-right {
+    float: right;
+    height: 150px;
+    width: 20%;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 20px;
     padding: 8px 8px;
     top: 20px;
     right: 20px;
@@ -254,8 +280,13 @@ img {
 }*/
 
 /* footer */
-footer {
+#footer {
     height: 60px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: lightgrey;
+    color: black;
+    position: fixed;
 }
 
 .social-networks {
@@ -268,9 +299,9 @@ footer {
 
 .social-networks i {
     font-size: 110%;
-    margin: 1%;
+    /*margin: 1%;*/
     padding: 1%;
-    color: #3a3a3a;
+    color: black;
 }
 
 .contact-info {
@@ -280,7 +311,6 @@ footer {
 .contact-info>li {
     display: inline;
     font-size: 90%;
-    margin: 1%;
     padding: 1%;
 }
 
