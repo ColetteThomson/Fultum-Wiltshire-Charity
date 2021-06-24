@@ -112,7 +112,8 @@ h4 {
 }
 
 #banner-outer {
-    height: 660px;
+    /*height: 660px;*/
+    height: fit-content;
     width: 100%;
     overflow: hidden;
     margin: 0;
@@ -186,7 +187,7 @@ i {
     height: fit-content;
     float: right;
     padding: 5px 5px;
-    margin-right: 35px;
+    margin-right: 50px;
     left: 10px;
     top: 5px;
 } 
@@ -209,6 +210,18 @@ i {
     height: 150px;
     width: 20%;
     margin-left: 30px;
+    padding: 8px 8px;
+    top: 20px;
+    right: 20px;
+    border-style: solid solid;
+    border-color: #ce5108;
+}
+
+.image-left-portrait {
+    float: left;
+    height: 300px;
+    width: 20%;
+    margin-left: 12px;
     padding: 8px 8px;
     top: 20px;
     right: 20px;
@@ -246,7 +259,7 @@ img {
     font-size: 90%;
 }
 
-/* right aligned section */
+/* right aligned section - homepage*/
 #div-right {
     position: relative;
     float: right;
@@ -267,19 +280,22 @@ img {
     color: #ce5108;
 }
 
-/*.right-about-frame {
-    color: black;
-    letter-spacing: 2px;
-    line-height: 30px;
+/* masonry style photo gallery on 'get social' page */
 
-    padding: 20px 20px;
-    top: 30px;
-    right: 30px;
+#photo-gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
 
-    background-color: #ce5108;
-}*/
+#photo-gallery img{
+    width: 99%;
+    margin: 2px 2px;
+}
 
 /* footer */
+
 #footer {
     height: 60px;
     width: 100%;
@@ -475,6 +491,12 @@ img {
         font-size: 130%;
     }
 
+    /* masonry style photo gallery on 'get social' page */
+    #photo{
+        column-count: 3;
+    }
+
+    /* footer */
     .contact-info>li {
         font-size: .5em;
     }
@@ -540,7 +562,7 @@ img {
     .banner>h2 {
     font-size: 65%;
     }
-
+    
     i {
     margin: 0.25em;
     padding-top: 0.18em;
@@ -577,6 +599,11 @@ img {
 
     .right-box-h2 {
         font-size: 130%;
+    }
+
+    /* masonry style photo gallery on 'get social' page */
+    #photo{
+        column-count: 2;
     }
 
     /* footer */
