@@ -377,9 +377,9 @@ ul {
 /* footer */
 
 #footer {
-    height: 60px;
-    width: 100%;
-    /*margin-top: 30px;*/
+    height: 45px;
+    width: 98.5%;
+    padding: 10px;
     background-color: lightgrey;
     color: black;
     position: relative;
@@ -387,7 +387,8 @@ ul {
 }
 
 .social-networks {
-    text-align: center;
+    text-align: right;
+    margin-right: 20px;
 }
 
 .social-networks>li {
@@ -395,12 +396,16 @@ ul {
 }
 
 .social-networks i {
-    font-size: 110%;
-    /*margin: 1%;*/
+    font-size: 130%;
     padding: 1%;
     color: black;
 }
 
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+/*
 .contact-info {
     text-align: center;
 }
@@ -409,7 +414,7 @@ ul {
     display: inline;
     font-size: 90%;
     padding: 1%;
-}
+}*/
 
 /* MEDIA QUERIES */
 
