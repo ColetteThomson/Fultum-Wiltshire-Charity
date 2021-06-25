@@ -16,7 +16,7 @@
 <body>
     <header>
         <a href="index.html">
-            <h1 id="logo" i class="fas fa-hand-holding-heart"></i> Fultum Wiltshire</h1>        
+            <h1 id="logo"> <i class="fas fa-hand-holding-heart"></i> Fultum Wiltshire </h1>
         </a>
         <nav>
             <ul id="menu">
@@ -134,6 +134,31 @@
             <div class="image-right">
                 <img src="../assets/images/volunteer-walking-man-in-wheelchair.jpg" alt="volunteer walking man in wheelchair">
             </div>
+        </section>
+
+        <section class="form">
+            <form action="https://formdump.codeinstitute.net/" method="POST" class="query-form">
+                <h2>Please complete the details below if you would like more information</h2>
+                <label for="firstname">First Name</label>
+                <input id="firstname" type="text" name="first_name" required class="text-input">
+
+                <label for="lastname">Last Name</label>
+                <input id="lastname" type="text" name="last_name" required class="text-input">
+
+                <label for="email">Email Address</label>
+                <input id="email" type="email" name="email" required class="text-input">
+
+                <label for="tel-no">Phone Number</label>
+                <input id="tel-no" type="tel" name="tel_no" required class="text-input">
+
+                <label for="services-info">Please email me info on your services</label>
+                <input id="services-info" type="radio" name="services_info" value="services-info" required>
+
+                <label for="call-me">Please call me</label>
+                <input id="call-me" type="radio" name="call_me" value="call-me">
+
+                <input type="submit" value="Submit" class="query-button">
+            </form>
         </section>
     </section>
 

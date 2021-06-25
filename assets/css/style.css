@@ -45,7 +45,6 @@ h4 {
 #logo {
     color: #ce5108;
     float: left;
-    /*font-family: 'roboto', sans-serif;*/
     font-size: 220%;
     margin-left: 30px;
 }
@@ -309,6 +308,70 @@ ul {
 #photo-gallery img{
     width: 99%;
     margin: 2px 2px;
+}
+
+/*query form at bottom of 'about us' page */
+
+.form-contact {
+    clear: both;
+}
+
+.form {
+    clear: left;
+    height: 500px;
+    width: 70%;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    background: url(../images/multiple-helping-hands.jpg);
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.query-form {
+    margin-left: 180px;
+    margin-top: 30px;
+    color: #3a3a3a;
+    background-color: rgba(233, 227, 227, .8);
+    height: 420px;
+    max-width: 40%;
+    position: absolute;
+    padding: 10px;
+}
+
+.query-form>h2 {
+    color: #ce5108;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #3a3a3a;
+    height: 25px;
+    width: 100%;
+    margin: 5px 0 20px 0;
+    border: 1px solid #3a3a3a;
+    border-radius: 1px;
+}
+
+.text-input:hover {
+    border-color: white;
+}
+
+.query-button {
+    margin-top: 20px;
+    padding: 15px 32px 15px 32px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 80%;
+    background-color: #ce5108;
+    color: #ffffff;
+    display: block;
+}
+
+.query-button:hover {
+    background-color: #ffffff;
+    color: #ce5108;
 }
 
 /* footer */
