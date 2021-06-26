@@ -80,7 +80,7 @@ h4 {
 
 /* home page background image */
 #homepage-outer {
-    height: 700px;
+    height: fit-content;
     width: 100%;
     overflow: hidden;
 }
@@ -95,23 +95,23 @@ h4 {
 }
 
 /* 'banner' across top of page */
+
+.byline-homepage {
+    height: 60px;
+    width: 90%;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 90px;
+    padding-bottom: 15px;
+    background-color: #ffca4b;
+}
+
 .byline-homepage>h2 {
     font-family: 'poppins', sans-serif;
     font-size: 120%;
     letter-spacing: normal;
     color: #3a3a3a;
-    height: 60px;
-    width: 100%;
-    padding-top: 15px;
-    padding-left: 70px;
-    padding-right: 70px;
-    /*padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 70px;
-    padding-right: 70px;*/
     text-align: center;
-    /*background-color: rgb(255, 202, 75, .6);*/
-    background-color: #ffca4b;
 }
 
 #banner-outer {
@@ -163,9 +163,9 @@ i {
     font-size: 120%;
     letter-spacing: 2px;
     line-height: 30px;
-    width: 60%;
+    width: 92%;
     height: fit-content;
-    display: inline-block;
+    /*display: inline-block;*/
     padding: 20px 10px;
     right: 20px;
     left: 20px;
@@ -177,6 +177,46 @@ i {
 .main-body-homepage>h2 {
     color: #ffca4b;
     letter-spacing: 4px;
+}
+
+/*homepage - 'do you need support' block */
+#text-image-container-homepage {
+    margin-top: 35px;
+    height: 150px;
+    width: 75%;
+
+    margin-left: 30px;
+    padding: 8px 8px;
+    top: 20px;
+    right: 20px;
+
+    border-style: solid solid;
+    border-color: #ce5108;
+}
+
+.body-right-homepage {
+    width: 50%;
+    height: 150px;
+    display: inline-block;
+    
+    padding-left: 30px;
+    /*margin-right: 50px;
+    left: 10px;
+    top: 5px;*/
+    clear: right;
+} 
+
+.image-left-homepage {
+    float: left;
+    height: 150px;
+    width: 25%;
+    margin-right: 0;
+    /*margin-left: 30px;*/
+    /*padding: 8px 8px;
+    /*top: 20px;
+    right: 20px;*/
+    /*border-style: solid solid;
+    border-color: #ce5108;*/
 }
 
 /* main text section on left of page for pages: 'what we do'; 'get social'; 'about us' */
@@ -214,7 +254,7 @@ cite {
     font-size: small;
 }
 
-/* image blocks - left and right */
+/* image blocks - left and right for pages: 'what we do'; 'get social'; 'about us'*/
 .image-left-1 {
     float: left;
     height: 150px;
@@ -309,13 +349,22 @@ ul {
     color: black;
     letter-spacing: 2px;
     line-height: 30px;
-    padding: 20px 20px;
+    /*padding: 20px 20px;
     top: 30px;
-    right: 30px;
-    background-color: rgba(233, 227, 227, .7);
+    right: 30px;*/
+    /*background-color: rgba(233, 227, 227, .7);*/
+    
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 30px;
+    padding: 8px 8px;
+    top: 20px;
+    right: 20px;
+    border-style: solid solid;
+    border-color: #ce5108;
 }
 
-.right-about-link {
+.link-homepage {
     color: #ce5108;
 }
 
