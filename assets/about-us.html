@@ -37,7 +37,9 @@
     </header>
     <section id="banner-outer">
         <div class="banner">
-            <h2>Our history <small>and</small> How you can help</h2>
+            <h2>Our history <small>and</small> How you can help
+                <span><a href="/assets/about-us.html#form" class="banner-link">Contact Us</a></span>
+            </h2>
         </div>
         <section id="text-image-container">
             <div class="image-left-portrait2">
@@ -141,8 +143,8 @@
             </div>
         </section>
 
-        <section class="form">
-            <form action="https://formdump.codeinstitute.net/" method="POST" class="query-form">
+        <section id="form">
+            <form action="" method="POST" class="query-form">
                 <h2>Please complete the details below if you would like more information</h2>
                 <label for="firstname">First Name</label>
                 <input id="firstname" type="text" name="first_name" required class="text-input">
@@ -157,10 +159,10 @@
                 <input id="tel-no" type="tel" name="tel_no" required class="text-input">
 
                 <label for="services-info">Please email me info on your services</label>
-                <input id="services-info" type="radio" name="services_info" value="services-info" required>
+                <input id="services-info" type="radio" name="contact_type" value="services-info" required>
 
                 <label for="call-me">Please call me</label>
-                <input id="call-me" type="radio" name="call_me" value="call-me">
+                <input id="call-me" type="radio" name="contact_type" value="call-me">
 
                 <input type="submit" value="Submit" class="query-button">
             </form>

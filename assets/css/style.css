@@ -71,7 +71,7 @@ h4 {
 }
 
 #menu a:hover {
-    color: #0463bb;
+    color: #ce5108;
 }
 
 .active {
@@ -95,17 +95,23 @@ h4 {
 }
 
 /* 'banner' across top of page */
-.byline-homepage-h2>h2 {
+.byline-homepage>h2 {
     font-family: 'poppins', sans-serif;
     font-size: 120%;
     letter-spacing: normal;
-    color: #e9e3e3;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    color: #3a3a3a;
+    height: 60px;
+    width: 100%;
+    padding-top: 15px;
     padding-left: 70px;
     padding-right: 70px;
+    /*padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+    padding-right: 70px;*/
     text-align: center;
-    background-color: rgba(206, 81, 8, .6);
+    /*background-color: rgb(255, 202, 75, .6);*/
+    background-color: #ffca4b;
 }
 
 #banner-outer {
@@ -129,6 +135,21 @@ h4 {
     font-size: 120%;
     letter-spacing: 4px;
     color: #3a3a3a;
+}
+
+.banner>h2>span {
+    float: right;
+    padding-right: 30px;
+}
+
+.banner-link {
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+a:hover,
+a:hover h2.banner-link {
+    color: #ce5108;
 }
 
 i {
@@ -312,11 +333,11 @@ ul {
 }
 
 /*query form at bottom of 'about us' page */
-.form-contact {
+#form-contact {
     clear: both;
 }
 
-.form {
+#form {
     clear: left;
     height: 500px;
     width: 70%;
