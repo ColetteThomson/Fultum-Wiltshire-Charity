@@ -94,8 +94,7 @@ h4 {
     background-repeat: no-repeat;
 }
 
-/* 'banner' across top of page */
-
+/* 'banner' across top of all pages */
 .byline-homepage {
     height: 60px;
     width: 90%;
@@ -158,14 +157,13 @@ i {
     float: right;
 }
 
-/* main text section on left of page for 'homepage'*/
+/* main text section on 'homepage'*/
 .main-body-homepage {
     font-size: 120%;
     letter-spacing: 2px;
     line-height: 30px;
     width: 92%;
     height: fit-content;
-    /*display: inline-block;*/
     padding: 20px 10px;
     right: 20px;
     left: 20px;
@@ -179,44 +177,30 @@ i {
     letter-spacing: 4px;
 }
 
-/*homepage - 'do you need support' block */
-#text-image-container-homepage {
-    margin-top: 35px;
-    height: 150px;
-    width: 75%;
-
-    margin-left: 30px;
-    padding: 8px 8px;
-    top: 20px;
-    right: 20px;
-
-    border-style: solid solid;
-    border-color: #ce5108;
-}
-
+/*homepage - 'do you need support' blocks */
 .body-right-homepage {
-    width: 50%;
+    width: 275px;
     height: 150px;
     display: inline-block;
-    
-    padding-left: 30px;
-    /*margin-right: 50px;
-    left: 10px;
-    top: 5px;*/
-    clear: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: rgba(206, 81, 8, .2);
+    color: black
 } 
 
 .image-left-homepage {
     float: left;
     height: 150px;
-    width: 25%;
+    width: 20%;
+    margin-left: 30px;
+    padding: 8px 8px;
+    margin-top: 40px;
     margin-right: 0;
-    /*margin-left: 30px;*/
-    /*padding: 8px 8px;
-    /*top: 20px;
-    right: 20px;*/
-    /*border-style: solid solid;
-    border-color: #ce5108;*/
+    border-style: solid solid;
+    border-color: #ce5108;
 }
 
 /* main text section on left of page for pages: 'what we do'; 'get social'; 'about us' */
@@ -336,32 +320,6 @@ ul {
 
 .link-font-size {
     font-size: 90%;
-}
-
-/* right aligned section - homepage*/
-#div-right {
-    position: relative;
-    float: right;
-    width: 33%;
-}
-
-.right-about {
-    color: black;
-    letter-spacing: 2px;
-    line-height: 30px;
-    /*padding: 20px 20px;
-    top: 30px;
-    right: 30px;*/
-    /*background-color: rgba(233, 227, 227, .7);*/
-    
-    margin-left: 10px;
-    margin-right: 50px;
-    margin-top: 30px;
-    padding: 8px 8px;
-    top: 20px;
-    right: 20px;
-    border-style: solid solid;
-    border-color: #ce5108;
 }
 
 .link-homepage {
