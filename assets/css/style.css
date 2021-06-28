@@ -97,7 +97,7 @@ h4 {
 /* 'banner' across top of all pages */
 .byline-homepage {
     height: 60px;
-    width: 90%;
+    width: 91%;
     padding-top: 15px;
     padding-left: 50px;
     padding-right: 90px;
@@ -159,9 +159,6 @@ i {
 
 /* main text section on 'homepage'*/
 .main-body-homepage {
-    font-size: 120%;
-    letter-spacing: 2px;
-    line-height: 30px;
     width: 92%;
     height: fit-content;
     padding: 20px 10px;
@@ -173,8 +170,10 @@ i {
 }
 
 .main-body-homepage>h2 {
+    font-size: 200%;
+    letter-spacing: 2px;
+    line-height: 30px;
     color: #ffca4b;
-    letter-spacing: 4px;
 }
 
 /*homepage - 'do you need support' blocks */
@@ -405,7 +404,7 @@ ul {
 /* footer */
 #footer {
     height: 45px;
-    width: 98.5%;
+    width: 98%;
     padding: 10px 10px 10px 20px;
     background-color: lightgrey;
     color: black;
@@ -449,7 +448,7 @@ ul {
         font-size: 100%;
     }
 
-    /* 'banner' across top of page */
+    /* 'banner' across top of all pages */
     .banner {
         height: 2.19em;
         margin-left: 0.5em;
@@ -469,36 +468,20 @@ ul {
 
     /* main text section on left of page for 'homepage'*/
     .main-body-homepage {
-        font-size: 100%;
         width: 90%;
-        height: fit-content;
         padding: 0.5em;
         left: 2em;
     }
 
-    /* right aligned section */
-    #div-right {
-        position: relative;
-        float: left;
-        width: 90%;
-    }
-
-    .right-about {
-        width: 90%;
-        float: left;
-        padding: 1.3em;
-        margin-top: 1em;
-        left: 2.2em;
-        right: 3.2em;
-    }
-
-    .right-box-h2 {
-        font-size: 140%;
+    .main-body-homepage>h2 {
+        font-size: 160%;
+        letter-spacing: 2px;
+        line-height: 30px;
     }
 
     /* footer */
-    .contact-info>li {
-        font-size: .7em;
+    #footer {
+        width: 97%;
     }
 }
 
@@ -523,7 +506,7 @@ ul {
     }
 
     #menu {
-        font-size: 70%;
+        font-size: 90%;
         letter-spacing: 2px;
     }
 
@@ -537,11 +520,13 @@ ul {
         background-position: center center;
     }
 
-    /* 'banner' across top of page */
-    .byline-homepage-h2>h2 {
-        font-size: 70%;
-        padding-left: 1.875em;
-        padding-right: 1.875em;
+    /* 'banner' across top of all pages */
+    .byline-homepage {
+        height: 50px;
+    }
+    
+    .byline-homepage>h2 {
+        font-size: 95%;
     }
 
     .banner {
@@ -571,27 +556,15 @@ ul {
         left: 1.7em;
     }
 
-    /* right aligned section */
-    #div-right {
-        position: relative;
-        float: left;
-        width: 90%;
+    /*homepage - 'do you need support' blocks */
+    .body-right-homepage {
+        height: 140px;
     }
 
-    .right-about {
-        font-size: 80%;
-        line-height: 20px;
-
-        width: 90%;
-        float: left;
-        padding: 1.3em;
-        margin-top: 1em;
-        left: 1.4em;
-        right: 3.2em;
-    }
-
-    .right-box-h2 {
-        font-size: 130%;
+    .image-left-homepage {
+        height: 140px;
+        width: 35%;
+        margin-left: 30px;
     }
 
     /* masonry style photo gallery on 'get social' page */
@@ -600,8 +573,18 @@ ul {
     }
 
     /* footer */
-    .contact-info>li {
-        font-size: .5em;
+    #footer {
+        height: 65px;
+        width: 96%;
+        font-size: small;
+    }
+
+    .social-networks i {
+        font-size: 140%;
+    }
+
+    .tab {
+     margin-left: 120px;
     }
 }
 
@@ -610,7 +593,7 @@ ul {
 /* headings and logo */
 @media screen and (max-width: 430px) {
     #logo {
-        font-size: 75%;
+        font-size: 80%;
         margin-left: 1em;
     }
 
@@ -625,7 +608,7 @@ ul {
     }
 
     #menu {
-        font-size: 40%;
+        font-size: 50%;
         letter-spacing: normal;
     }
 
@@ -635,24 +618,20 @@ ul {
     }
 
     /* home page background image */
-    #homepage-background {
-        background-color: #497499;
-    }
+    
+    
 
-    /* 'banner' across top of page */
-    .byline-homepage-h2>h2 {
-        font-size: 50%;
-        padding-left: 1.875em;
-        padding-right: 1.875em;
+    /* 'banner' across top of all pages */
+    .byline-homepage {
+        padding: 0.625em 0.625em;
+        width: 97%;
+        height: 3.75em;
     }
-
-    /* #banner-outer {
-        height: 700px;
-        width: 100%;
-        overflow: hidden;
-        margin: 0 auto;
-        padding: 0 1.25rem;
-    } */
+    
+    .byline-homepage>h2 {
+        font-size: 70%;
+        margin-left: 0;
+    }
 
     .banner {
         height: 1.3em;
@@ -663,45 +642,50 @@ ul {
     }
    
     .banner>h2 {
-    font-size: 65%;
+        font-size: 65%;
     }
     
     i {
-    margin: 0.25em;
-    padding-top: 0.18em;
-    float: right;
+        margin: 0.25em;
+        padding-top: 0.18em;
+        float: right;
     }
 
     /* main text section on left of page for 'homepage'*/
     .main-body-homepage {
-        font-size: 45%;
-        width: 88%;
+        width: 94%;
         height: fit-content;
-        line-height: 15px;
-        left: 1.7em;
+        line-height: 4px;
+        padding: 20px 10px;
+        right: 5px;
+        left: 5px;
+        top: 5px;
     }
 
-    /* right aligned section */
-    #div-right {
-        position: relative;
+    .main-body-homepage>h2 {
+        font-size: 120%;
+    }
+
+    /*homepage - 'do you need support' blocks */
+    .body-right-homepage {
+        width: 260px;
+        height: 120px;
+        padding: 10px;
+        margin-top: 10px;
+        margin-left: 16px;
+    }
+
+    .body-right-homepage>h2 {
+        font-size: 110%;
+    }
+
+    .image-left-homepage {
         float: left;
-        width: 85%;
-    }
-
-    .right-about {
-        font-size: 65%;
-        line-height: 15px;
-
-        width: 85%;
-        float: left;
-        padding: 1.1em;
-        margin-top: 1em;
-        left: 1.4em;
-        right: 3.5em;
-    }
-
-    .right-box-h2 {
-        font-size: 130%;
+        height: 120px;
+        width: 50%;
+    
+        margin-left: 16px;
+        margin-top: 2px;
     }
 
     /* masonry style photo gallery on 'get social' page */
@@ -710,10 +694,19 @@ ul {
     }
 
     /* footer */
-    .contact-info>li {
-        display: inline-flex;
-        font-size: .15em;
-        margin: 1em;
-        padding: 1em;
+    #footer {
+        height: 120px;
+        width: 90.6%;
+        position: relative;
+        font-size: smaller;
+        clear: both;
+    }
+
+    .social-networks {
+        margin-right: 10px;
+    }
+
+    .tab {
+        margin-left: 90px;
     }
 }
