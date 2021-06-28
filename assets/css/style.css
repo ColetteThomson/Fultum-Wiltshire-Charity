@@ -202,7 +202,7 @@ i {
     border-color: #ce5108;
 }
 
-/* main text section on left of page for pages: 'what we do'; 'get social'; 'about us' */
+/* main text section for pages: 'what we do'; 'get social'; 'about us' */
 #text-image-container {
     margin-top: 30px;
     height: fit-content;
@@ -223,8 +223,8 @@ i {
     width: 70%;
     height: fit-content;
     float: right;
-    padding: 5px 5px;
-    margin-right: 50px;
+    padding: 10px 10px;
+    margin-right: 35px;
     left: 10px;
     top: 5px;
 } 
@@ -241,7 +241,7 @@ cite {
 .image-left-1 {
     float: left;
     height: 150px;
-    width: 20%;
+    width: 23%;
     margin-left: 12px;
     padding: 8px 8px;
     top: 20px;
@@ -255,8 +255,9 @@ cite {
     height: 150px;
     width: 20%;
     margin-left: 30px;
+    margin-right: 10px;
     padding: 8px 8px;
-    top: 20px;
+    top: 30px;
     right: 20px;
     border-style: solid solid;
     border-color: #ce5108;
@@ -460,13 +461,7 @@ ul {
         font-size: 110%;
     }
     
-    i {
-        margin: 4px;
-        padding-top: 3px;
-        float: right;
-    }
-
-    /* main text section on left of page for 'homepage'*/
+    /* main text section on 'homepage'*/
     .main-body-homepage {
         width: 90%;
         padding: 0.5em;
@@ -476,9 +471,25 @@ ul {
     .main-body-homepage>h2 {
         font-size: 160%;
         letter-spacing: 2px;
-        line-height: 30px;
+        line-height: 1.875em;
+    }
+    
+    /* main text section for pages: 'what we do'; 'get social'; 'about us' */
+    .main-body-left {
+        width: 68%;
+    } 
+
+    .main-body-right {
+        width: 65%;
     }
 
+    /* image blocks - left and right for pages: 'what we do'; 'get social'; 'about us'*/
+    .image-left-1 {
+        float: left;
+        height: 150px;
+        width: 21%;
+    }
+    
     /* footer */
     #footer {
         width: 97%;
@@ -522,7 +533,7 @@ ul {
 
     /* 'banner' across top of all pages */
     .byline-homepage {
-        height: 50px;
+        height: 3.125em;
     }
     
     .byline-homepage>h2 {
@@ -540,31 +551,46 @@ ul {
     font-size: 90%;
     }
 
-    i {
-    margin: 0.25em;
-    padding-top: 0.18em;
-    float: right;
-    }
-
-    /* main text section on left of page for 'homepage'*/
+    /* main text section on 'homepage'*/
     .main-body-homepage {
         font-size: 80%;
         width: 92%;
         height: fit-content;
-        line-height: 20px;
+        line-height: 1.25em;
         padding: 1em;
         left: 1.7em;
     }
 
+    /* main text section for pages: 'what we do'; 'get social'; 'about us' */
+    .main-body-left {
+        width: 65%;
+    } 
+
+    .main-body-right {
+        width: 65%;
+        height: fit-content;
+        float: right;
+        padding: 10px 10px;
+        margin-right: 15px;
+        left: 10px;
+        top: 5px;
+    } 
+
+    /* image blocks - left and right for pages: 'what we do'; 'get social'; 'about us'*/
+    .image-left-2 {
+        height: 145px;
+        width: 22%;
+    }
+
     /*homepage - 'do you need support' blocks */
     .body-right-homepage {
-        height: 140px;
+        height: 8.75em;
     }
 
     .image-left-homepage {
-        height: 140px;
+        height: 8.75em;
         width: 35%;
-        margin-left: 30px;
+        margin-left: 1.875em;
     }
 
     /* masonry style photo gallery on 'get social' page */
@@ -645,21 +671,15 @@ ul {
         font-size: 65%;
     }
     
-    i {
-        margin: 0.25em;
-        padding-top: 0.18em;
-        float: right;
-    }
-
-    /* main text section on left of page for 'homepage'*/
+    /* main text section on 'homepage'*/
     .main-body-homepage {
         width: 94%;
         height: fit-content;
-        line-height: 4px;
-        padding: 20px 10px;
-        right: 5px;
-        left: 5px;
-        top: 5px;
+        line-height: 0.25em;
+        padding: 1.25em 0.625em;
+        right: 0.3125em;
+        left: 0.3125em;
+        top: 0.3125em;
     }
 
     .main-body-homepage>h2 {
@@ -668,11 +688,11 @@ ul {
 
     /*homepage - 'do you need support' blocks */
     .body-right-homepage {
-        width: 260px;
-        height: 120px;
-        padding: 10px;
-        margin-top: 10px;
-        margin-left: 16px;
+        width: 16.25em;
+        height: 7.5em;
+        padding: 0.625em;
+        margin-top: 0.625em;
+        margin-left: 1em;
     }
 
     .body-right-homepage>h2 {
@@ -681,11 +701,11 @@ ul {
 
     .image-left-homepage {
         float: left;
-        height: 120px;
+        height: 7.5em;
         width: 50%;
     
-        margin-left: 16px;
-        margin-top: 2px;
+        margin-left: 1em;
+        margin-top: 0.125em;
     }
 
     /* masonry style photo gallery on 'get social' page */
@@ -695,7 +715,7 @@ ul {
 
     /* footer */
     #footer {
-        height: 120px;
+        height: 7.5em;
         width: 90.6%;
         position: relative;
         font-size: smaller;
@@ -703,10 +723,10 @@ ul {
     }
 
     .social-networks {
-        margin-right: 10px;
+        margin-right: 0.625em;
     }
 
     .tab {
-        margin-left: 90px;
+        margin-left: 5.625em;
     }
 }
