@@ -87,7 +87,8 @@ h4 {
 
 #homepage-background {
     height: 700px;
-    width: 100%;
+    margin-left: 20px;
+    width: 96.6%;
     background-image: url('../images/breaking-free-of-handcuffs.jpg');
     background-color: #497499;
     background-size: cover;
@@ -97,7 +98,7 @@ h4 {
 /* 'banner' across top of all pages */
 .byline-homepage {
     height: 60px;
-    width: 91%;
+    width: 88.6%;
     padding-top: 15px;
     padding-left: 50px;
     padding-right: 90px;
@@ -208,8 +209,6 @@ a:hover h2.banner-link {
     float: left;
     padding: 10px 10px;
     right: 20px;
-    left: 10px;
-    top: 5px;
     clear: both;
 } 
 
@@ -219,8 +218,6 @@ a:hover h2.banner-link {
     float: right;
     padding: 10px 10px;
     margin-right: 35px;
-    left: 10px;
-    top: 5px;
 } 
 
 .main-body-right-2 {
@@ -229,8 +226,14 @@ a:hover h2.banner-link {
     float: right;
     padding: 10px 10px;
     margin-right: 35px;
-    left: 10px;
-    top: 5px;
+} 
+
+.main-body-right-3 {
+    width: 72%;
+    height: fit-content;
+    float: right;
+    padding: 10px 10px;
+    margin-right: 40px;
 } 
 
 figcaption {
@@ -280,10 +283,23 @@ cite {
     border-color: #ce5108;
 }
 
-.image-left-portrait2 {
+.image-left-portrait-2 {
     float: left;
     height: 220px;
     width: 20%;
+    margin-left: 12px;
+    padding: 8px 8px;
+    top: 20px;
+    right: 20px;
+    border-style: solid solid;
+    border-color: #ce5108;
+    clear: both;
+}
+
+.image-left-portrait-3 {
+    float: left;
+    height: 260px;
+    width: 18%;
     margin-left: 12px;
     padding: 8px 8px;
     top: 20px;
@@ -297,6 +313,20 @@ cite {
     float: right;
     height: 150px;
     width: 20%;
+    margin-left: 10px;
+    margin-right: 50px;
+    margin-top: 30px;
+    padding: 8px 8px;
+    top: 20px;
+    right: 20px;
+    border-style: solid solid;
+    border-color: #ce5108;
+}
+
+.image-right-2 {
+    float: right;
+    height: 170px;
+    width: 22%;
     margin-left: 10px;
     margin-right: 50px;
     margin-top: 30px;
@@ -362,12 +392,12 @@ ul {
 }
 
 .query-form {
-    margin-left: 180px;
+    margin-left: 240px;
     margin-top: 30px;
     color: #3a3a3a;
     background-color: rgba(233, 227, 227, .8);
     height: 420px;
-    max-width: 40%;
+    max-width: 35%;
     position: absolute;
     padding: 10px;
 }
@@ -512,6 +542,29 @@ i {
         height: 18.75em;
         margin-top: 2.5em;
     }
+
+    .image-left-portrait-3 {
+        margin-top: 1.375em;
+    }
+
+    .image-right {
+        margin-top: 3.75em;
+    }
+
+    /*query form at bottom of 'about us' page */
+    #form {
+        height: 500px;
+        width: 70%;
+        margin-left: 150px;
+    }
+
+    .query-form {
+        margin-left: 90px;
+        margin-top: 30px;
+        height: 420px;
+        max-width: 50%;
+    }
+
     /* footer */
     #footer {
         width: 92%;
@@ -580,7 +633,7 @@ i {
     }
    
     .banner>h2 {
-    font-size: 90%;
+        font-size: 90%;
     }
 
     /* main text section on 'homepage'*/
@@ -611,6 +664,7 @@ i {
 
     .main-body-right {
         width: 65%;
+        margin-top: 0;
         margin-right: 2.25em;
     } 
 
@@ -619,11 +673,48 @@ i {
         margin-right: 2.1875em;
     } 
 
+    .main-body-right-3 {
+        width: 66%;
+    }
+
     /* image blocks - left and right for pages: 'what we do'; 'get social'; 'about us'*/
     .image-left-2 {
         height: 9.0625em;
         width: 22%;
         margin-top: 1.25em;
+    }
+
+    .image-left-portrait-2 {
+        margin-top: 1.875em;
+    }
+
+    .image-left-portrait-3 {
+        margin-top: 3.125em;
+        height: 13.75em;
+    }
+
+    .image-right {
+        margin-top: 6.25em;
+    }
+
+    .image-right-2 {
+        margin-top: 2.5em;
+        height: 9.375em;
+        width: 20%;
+    }
+
+    /*query form at bottom of 'about us' page */
+    #form {
+        height: 31.25em;
+        width: 80%;
+        margin-left: 4.0625em;
+    }
+
+    .query-form {
+        margin-left: 1.8125em;
+        margin-top: 1.875em;
+        height: 26.25em;
+        max-width: 70%;
     }
 
     /* masonry style photo gallery on 'get social' page */
@@ -643,7 +734,7 @@ i {
     }
 
     .tab {
-     margin-left: 120px;
+     margin-left: 7.5em;
     }
 }
 
@@ -703,7 +794,7 @@ i {
 
     .banner>h2>span {
         float: right;
-        padding-right: 10px;
+        padding-right: 0.625em;
     }
     
     /* main text section on 'homepage'*/
@@ -770,6 +861,11 @@ i {
         margin-right: 0px;
     } 
 
+    .main-body-right-3 {
+        width: 90%;
+        float: left;
+    }
+
     .main-body-right>h3 {
         letter-spacing: normal;
     }
@@ -798,10 +894,16 @@ i {
 
     .image-right {
         height: 7.5em;
-            width: 35%;
-            margin-left: 0;
-            margin-right: 1.25em;
-            margin-top: 0;
+        width: 35%;
+        margin-left: 0;
+        margin-right: 1.25em;
+        margin-top: 0;
+    }
+
+    .image-right-2 {
+        width: 60%;
+        float: left;
+        margin-top: 0;
     }
         
     .image-left-portrait {
@@ -809,20 +911,51 @@ i {
         width: 55%;
         margin-top: 0.5em;
         margin-left: 2.5em;
-            }
+    }
+
+    .image-left-portrait-2 {
+        margin-top: 0;
+        height: 10em;
+        width: 40%;
+    }
+
+    .image-left-portrait-3 {
+        margin-top: 0.625em;
+        margin-left: 1.125em;
+        height: 10.625em;
+        width: 40%;
+    }
 
     /* masonry style photo gallery on 'get social' page */
     #photo-gallery {
         column-count: 2;
     }
 
+    /*query form at bottom of 'about us' page */
+    #form {
+        height: 21.875em;
+        margin-left: 0;
+        margin-top: 3.125em;
+        margin-bottom: 12.5em;
+        background: none;
+    }
+
+    .query-form {
+        margin-left: 0;
+        margin-top: 1.25em;
+        height: 30em;
+        max-width: 100%;
+    }
+
+    .query-form>h2 {
+        font-size: 100%;
+    }
+
     /* footer */
     #footer {
         height: 8.5em;
         width: 85%;
-        position: relative;
         font-size: smaller;
-        clear: both;
     }
 
     .social-networks {
@@ -830,6 +963,6 @@ i {
     }
 
     .tab {
-        margin-left: 92px;
+        margin-left: 5.75em;
     }
 }
