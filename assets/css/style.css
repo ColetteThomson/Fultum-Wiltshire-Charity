@@ -62,7 +62,7 @@ h4 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 35px;
+    margin-right: 36px;
 }
 
 #menu a {
@@ -269,9 +269,10 @@ cite {
 
 .image-left-portrait {
     float: left;
-    height: 300px;
-    width: 20%;
+    height: 340px;
+    width: 22%;
     margin-left: 12px;
+    margin-bottom: 10px;
     padding: 8px 8px;
     top: 20px;
     right: 20px;
@@ -507,6 +508,10 @@ i {
         height: 9.375em;
     }
     
+    .image-left-portrait {
+        height: 18.75em;
+        margin-top: 2.5em;
+    }
     /* footer */
     #footer {
         width: 92%;
@@ -622,7 +627,7 @@ i {
     }
 
     /* masonry style photo gallery on 'get social' page */
-    #photo{
+    #photo-gallery {
         column-count: 3;
     }
 
@@ -670,10 +675,6 @@ i {
         float: right;
         margin-right: 1em;
     }
-
-    /* home page background image */
-    
-    
 
     /* 'banner' across top of all pages */
     .byline-homepage {
@@ -803,8 +804,15 @@ i {
             margin-top: 0;
     }
         
+    .image-left-portrait {
+        height: 14.375em;
+        width: 55%;
+        margin-top: 0.5em;
+        margin-left: 2.5em;
+            }
+
     /* masonry style photo gallery on 'get social' page */
-    #photo{
+    #photo-gallery {
         column-count: 2;
     }
 
