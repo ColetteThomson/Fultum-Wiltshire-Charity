@@ -62,7 +62,7 @@ h4 {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 35px;
 }
 
 #menu a {
@@ -151,12 +151,6 @@ a:hover h2.banner-link {
     color: #ce5108;
 }
 
-i {
-    margin: 4px;
-    padding-top: 3px;
-    float: right;
-}
-
 /* main text section on 'homepage'*/
 .main-body-homepage {
     width: 92%;
@@ -220,6 +214,16 @@ i {
 } 
 
 .main-body-right {
+    width: 70%;
+    height: fit-content;
+    float: right;
+    padding: 10px 10px;
+    margin-right: 35px;
+    left: 10px;
+    top: 5px;
+} 
+
+.main-body-right-2 {
     width: 70%;
     height: fit-content;
     float: right;
@@ -405,8 +409,9 @@ ul {
 /* footer */
 #footer {
     height: 45px;
-    width: 98%;
-    padding: 10px 10px 10px 20px;
+    width: 93.5%;
+    margin-left: 20px;
+    padding: 10px 10px 10px 30px;
     background-color: lightgrey;
     color: black;
     position: relative;
@@ -433,6 +438,12 @@ ul {
     margin-left: 40px;
 }
 
+i {
+    margin: 4px;
+    padding-top: 3px;
+    float: right;
+}
+
 /* MEDIA QUERIES */
 
 /* large to medium screens (DESKTOP / LAPTOP) - applied when screen width is 1200px and below */
@@ -452,6 +463,7 @@ ul {
     /* 'banner' across top of all pages */
     .banner {
         height: 2.19em;
+        width: 93%;
         margin-left: 0.5em;
         padding-top: 0.5em;
         padding-left: 0.8em;
@@ -481,18 +493,32 @@ ul {
 
     .main-body-right {
         width: 65%;
+        margin-right: 3.75em;
+    }
+
+    .main-body-right-2 {
+        width: 65%;
+        margin-right: 3.5em;
     }
 
     /* image blocks - left and right for pages: 'what we do'; 'get social'; 'about us'*/
     .image-left-1 {
         float: left;
-        height: 150px;
-        width: 21%;
+        height: 9.375em;
     }
     
     /* footer */
     #footer {
-        width: 97%;
+        width: 92%;
+    }
+
+    .social-networks {
+        margin-right: 0.625em;
+    }
+
+    .tab {
+        display: inline-block;
+        margin-left: 2.1875em;
     }
 }
 
@@ -542,6 +568,7 @@ ul {
 
     .banner {
         height: 1.875em;
+        width: 93%;
         margin-left: 0.5em;
         padding-top: 0.5em;
         padding-left: 0.94em;
@@ -561,27 +588,6 @@ ul {
         left: 1.7em;
     }
 
-    /* main text section for pages: 'what we do'; 'get social'; 'about us' */
-    .main-body-left {
-        width: 65%;
-    } 
-
-    .main-body-right {
-        width: 65%;
-        height: fit-content;
-        float: right;
-        padding: 10px 10px;
-        margin-right: 15px;
-        left: 10px;
-        top: 5px;
-    } 
-
-    /* image blocks - left and right for pages: 'what we do'; 'get social'; 'about us'*/
-    .image-left-2 {
-        height: 145px;
-        width: 22%;
-    }
-
     /*homepage - 'do you need support' blocks */
     .body-right-homepage {
         height: 8.75em;
@@ -593,6 +599,28 @@ ul {
         margin-left: 1.875em;
     }
 
+    /* main text section for pages: 'what we do'; 'get social'; 'about us' */
+    .main-body-left {
+        width: 65%;
+    } 
+
+    .main-body-right {
+        width: 65%;
+        margin-right: 2.25em;
+    } 
+
+    .main-body-right-2 {
+        width: 63%;
+        margin-right: 2.1875em;
+    } 
+
+    /* image blocks - left and right for pages: 'what we do'; 'get social'; 'about us'*/
+    .image-left-2 {
+        height: 9.0625em;
+        width: 22%;
+        margin-top: 1.25em;
+    }
+
     /* masonry style photo gallery on 'get social' page */
     #photo{
         column-count: 3;
@@ -600,7 +628,7 @@ ul {
 
     /* footer */
     #footer {
-        height: 65px;
+        height: 4.0625em;
         width: 96%;
         font-size: small;
     }
@@ -661,14 +689,20 @@ ul {
 
     .banner {
         height: 1.3em;
-        width: 80%;
+        width: 90%;
         margin-left: 0;
         padding-top: 0.4em;
-        padding-left: 0;
+        padding-left: 5px;
     }
    
     .banner>h2 {
         font-size: 65%;
+        letter-spacing: normal;
+    }
+
+    .banner>h2>span {
+        float: right;
+        padding-right: 10px;
     }
     
     /* main text section on 'homepage'*/
@@ -708,6 +742,67 @@ ul {
         margin-top: 0.125em;
     }
 
+    /* main text section for pages: 'what we do'; 'get social'; 'about us' */
+    #text-image-container {
+        margin-top: 0.625em;
+    }
+
+    .main-body-left {
+        width: 90%;
+        padding: 10px 0;
+        clear: both;
+    } 
+
+    .main-body-right {
+        width: 90%;
+        float: left;
+        padding: 10px 0;
+        margin-left: 0;
+        margin-right: 0;
+    } 
+
+    .main-body-right-2 {
+        width: 90%;
+        float: left;
+        padding: 10px 0px;
+        margin-left: 20px;
+        margin-right: 0px;
+    } 
+
+    .main-body-right>h3 {
+        letter-spacing: normal;
+    }
+
+    .main-body-left>h3 {
+        letter-spacing: normal;
+    }
+
+    .main-body-right-2>h3 {
+        letter-spacing: normal;
+    }
+
+    /* image blocks - left and right for pages: 'what we do'; 'get social'; 'about us'*/
+    .image-left-1 {
+        height: 8.125em;
+        width: 50%;
+        margin-left: 0.3125em;
+    }
+
+    .image-left-2 {
+        height: 8.125em;
+        width: 50%;
+        margin-left: 2.1875em;
+        margin-top: 1.25em;
+    }
+
+    .image-right {
+        height: 7.5em;
+            width: 35%;
+            margin-left: 0;
+            margin-right: 1.25em;
+            margin-top: 0;
+    }
+        
     /* masonry style photo gallery on 'get social' page */
     #photo{
         column-count: 2;
@@ -715,8 +810,8 @@ ul {
 
     /* footer */
     #footer {
-        height: 7.5em;
-        width: 90.6%;
+        height: 8.5em;
+        width: 85%;
         position: relative;
         font-size: smaller;
         clear: both;
@@ -727,6 +822,6 @@ ul {
     }
 
     .tab {
-        margin-left: 5.625em;
+        margin-left: 92px;
     }
 }
