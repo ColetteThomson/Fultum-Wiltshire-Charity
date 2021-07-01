@@ -1,9 +1,7 @@
 # Fultum Wiltshire Charity
 
 ## Purpose
-This website was created to both showcase the services and extend awareness of the Fultum Wiltshire Charity.
-The Charity is locally based and intended to serve the residents in the County of Wiltshire in the UK.
-The Charity supports people and communities with the following services:
+This website was created to both showcase the services and extend awareness of the Fultum Wiltshire Charity. The Charity is locally based and intended to serve the residents in the County of Wiltshire in the UK. The Charity supports people and communities with the following services:
 * Companionship and help with essential services
 * Community transport via a shuttle service
 * Short term support and help coping with emotional traumas such as bereavement
@@ -70,3 +68,50 @@ The Charity supports people and communities with the following services:
 * This feature fulfills the user stories: *'As a new user, I want information on what services they offer'* and *'As a new user, I want to be able to easily contact the organisation'* and *'As a regular user, I want to determine ways to contact and request additional information about new or improved services'*.
 
 ### Design of the Fultum Wiltshire Charity website
+
+#### Colour Scheme
+The colour palette chosen consists of four basic colours:  #ce5108 (orange); #0463bb (blue); #ffca4b (yellow); and #80000 (maroon). The body text colour is mostly #3a3a3a (dark grey) with some sections in #000000 (black).  The colours were chosen to compliment each other and provide the necessary contrast.
+
+#### Fonts
+All headings and the logo are using **Roboto** and the body text is using **Poppins**.  The back-up font is **sans-serif**.  Fonts were downloaded from **Google Fonts**.
+
+#### Imagery, Icons, Links
+Images for the website have been downloaded from **Pexels**.  The icons (logo and social media) were downloaded from **Font Awesome**.  Some of the links were created using **Bootstrap**. The video was downloaded from ....
+
+#### Wireframes
+*insert wireframes here*
+*links for pdfs*
+
+#### Differences in Design Display
+The background image to the Query Form on the 'About Us' page has been removed from the mobile phone display to allow for better readability of the query form.
+
+### Limitations
+As there no JavaScript functionality, the Query Form on the 'About Us' page will not store data.
+
+### Features
+* The Query Form - this can be completed on the 'About Us' page.  It can also be accessed via the 'Contact Us' link displayed at the top right of the 'What We Do', 'Get Social' and 'About Us' pages - and from the navigational menu.
+* Masonry Gallery - visible on the 'Get Social' page.  It can also be accessed from a link on the 'Home' page, as well as the navigational menu.
+* Embedded YouTube video - this video is controlled by the user and is not set to automatically play.
+
+## Technologies
+* HTML - the structure of this website project uses HTML as the main language
+* CSS - the styling of this website encompasses custom written CSS
+* [Bootstrap](https://getbootstrap.com/) - utilised for some of the links within this website
+* [Google Fonts](https://fonts.google.com/) - utilised for headings (Roboto) and body text (Poppins)
+* [Font Awesome](https://fontawesome.com/) - utilised for the logo icon and social media icons
+* [GitHub](https://github.com/) - hosting site for storage of source code for the website and [Git Pages](https://pages.github.com/) for the deployment of the website
+* [Git](https://git-scm.com/) - used as version control software to commit and push code to a GitHub repository where all source code is stored
+* [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - these are built in developer tools using to inspect page elements (eg responsive design); debug issues; and test different CSS styling options
+* [balsamiq Wireframes](https://balsamiq.com/wireframes/) - used to create wireframes for the 'Skeleton Plane' of the User Experience Design section
+
+## Testing
+* This is a static website with no back-end functionality - therefore testing will be performed on visual effect and website layout. 
+* Testing will be performed to check for compatability across three web browsers (Google Chrome; Internet Explorer 10; and Firefox) and the different screen sizes (desktop/laptop; tablet; and mobile phone).
+* All navigational links should should direct to the correct html web page as per their names.  The exception here is the 'Home' page, as it will rediret to 'index.html'.
+* All links to external websites are to open in a new browser page.
+* Testing of the Query Form to ensure correct field input, and that all required fields are completed.
+The live project can be found *here*
+
+
+
+
