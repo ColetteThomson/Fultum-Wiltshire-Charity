@@ -78,48 +78,34 @@ h4 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* home page background image */
-#homepage-outer {
+/* 'banner' across top of all pages */
+#banner-outer {
     height: fit-content;
     width: 100%;
     overflow: hidden;
+    margin: 0;
 }
 
-#homepage-background {
-    height: 700px;
-    margin-left: 20px;
-    width: 96.6%;
-    background-image: url('../images/breaking-free-of-handcuffs.jpg');
-    background-color: #497499;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/* 'banner' across top of all pages */
 .byline-homepage {
     height: 60px;
-    width: 88.6%;
+    width: 100%; 
+    margin: 0;
     padding-top: 15px;
-    padding-left: 50px;
-    padding-right: 90px;
     padding-bottom: 15px;
     background-color: #ffca4b;
 }
 
 .byline-homepage>h2 {
     font-family: 'poppins', sans-serif;
-    font-size: 120%;
+    font-size: 140%;
     letter-spacing: normal;
     color: #3a3a3a;
+    /*margin-right: 300px;
+    padding-left: 30px;*/
+    padding-left: 60px;
+    padding-right: 60px;
     text-align: center;
-}
-
-#banner-outer {
-    height: fit-content;
-    width: 100%;
-    overflow: hidden;
-    margin: 0;
-    /*padding: 0 1.25rem;*/
+    word-wrap: break-word;
 }
 
 .banner {
@@ -129,7 +115,6 @@ h4 {
     margin: 0;
     padding-top: 15px;
     padding-left: 30px;
-    /*padding-right: 60px;*/
 }
 
 .banner>h2 {
@@ -155,43 +140,57 @@ a:hover h2.banner-link {
 }
 
 /* main text section on 'homepage'*/
+.container {
+    position: relative;
+    text-align: left;
+    color: #0463bb;
+}
+
 .main-body-homepage {
-    width: 92%;
+    float: right;
+    width: 80%;
     height: fit-content;
-    padding: 20px 10px;
+    padding-top: 50px;
+    padding-left: 100px;
     right: 20px;
     left: 20px;
     top: 30px;
-    position: relative;
+    position: absolute;
     clear: both;
 }
 
 .main-body-homepage>h2 {
-    font-size: 200%;
+    font-size: 250%;
     letter-spacing: 2px;
-    line-height: 30px;
-    color: #ffca4b;
+    line-height: 50px;
+    color: #0463bb;
 }
 
 /*homepage - 'do you need support' blocks */
 .body-right-homepage {
-    width: 275px;
-    height: 150px;
+    width: 280px;
+    height: 380px;
     display: inline-block;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
     margin-top: 40px;
     margin-left: 20px;
-    background-color: rgba(206, 81, 8, .2);
-    color: black
+    background-color: rgba(206, 81, 8, .7);
+    color: white;
+    letter-spacing: 2px;
+    font-size: 150%;
 } 
+
+.body-right-homepage>h2 {
+    color: #800000;
+}
 
 .image-left-homepage {
     float: left;
-    height: 150px;
-    width: 20%;
-    margin-left: 30px;
+    height: 380px;
+    width: 25%;
+    margin-left: 220px;
     padding: 8px 8px;
     margin-top: 40px;
     margin-right: 0;
@@ -352,15 +351,16 @@ ul {
 
 /* links */
 .link-color {
-    color: #e9e3e3;
+    color: #800000;
 }
 
 .link-font-size {
-    font-size: 90%;
+    font-size: 100%;
 }
 
 .link-homepage {
-    color: #ce5108;
+    color: white;
+    letter-spacing: normal;
 }
 
 /* masonry style photo gallery on 'get social' page */
@@ -492,6 +492,11 @@ i {
     }
 
     /* 'banner' across top of all pages */
+    .byline-homepage>h2 {
+        font-size: 125%;
+        padding-left: 1.875em;
+    }
+
     .banner>h2 {
         font-size: 110%;
     }
@@ -597,26 +602,24 @@ i {
         margin-right: 1em;
     }
 
-    /* home page background image */
-    #homepage-background {
-        background-position: center center;
-    }
-
     /* 'banner' across top of all pages */
-    .byline-homepage {
-        height: 3.125em;
-    }
-    
-    .byline-homepage>h2 {
-        font-size: 95%;
-    }
-
     .banner {
         height: 2.1875em;
         padding-top: 0.75em;
         padding-left: 0.94em;
     }
-   
+    
+    .byline-homepage {
+        height: 2.5em;
+        padding-top: 0.5em;
+        padding-bottom: 0.625em;
+    }
+    
+    .byline-homepage>h2 {
+        font-size: 95%;
+        padding-left: 2.1875em;
+    }
+
     .banner>h2 {
         font-size: 90%;
     }
@@ -763,14 +766,16 @@ i {
 
     /* 'banner' across top of all pages */
     .byline-homepage {
-        padding: 0.625em 0.625em;
-        width: 97%;
-        height: 3.75em;
+        height: 4.5625em;
     }
     
     .byline-homepage>h2 {
-        font-size: 70%;
-        margin-left: 0;
+        width: 90%;
+        font-size: 80%;
+        padding-left: 10px;
+        padding-right: 20px;
+        margin: 0;
+        text-align: left;
     }
 
     .banner {
