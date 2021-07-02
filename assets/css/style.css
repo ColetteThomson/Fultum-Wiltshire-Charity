@@ -119,15 +119,17 @@ h4 {
     width: 100%;
     overflow: hidden;
     margin: 0;
-    padding: 0 1.25rem;
+    /*padding: 0 1.25rem;*/
 }
 
 .banner {
     background-color: #ffca4b;
-    height: 40px;
-    width: 94%;
+    height: 45px;
+    width: 100%;
+    margin: 0;
     padding-top: 15px;
     padding-left: 30px;
+    /*padding-right: 60px;*/
 }
 
 .banner>h2 {
@@ -139,7 +141,7 @@ h4 {
 
 .banner>h2>span {
     float: right;
-    padding-right: 30px;
+    padding-right: 65px;
 }
 
 .banner-link {
@@ -439,10 +441,11 @@ ul {
 
 /* footer */
 #footer {
-    height: 45px;
-    width: 93.5%;
-    margin-left: 20px;
-    padding: 10px 10px 10px 30px;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding-left: 25px;
+    padding-top: 3px;
     background-color: lightgrey;
     color: black;
     position: relative;
@@ -450,8 +453,7 @@ ul {
 }
 
 .social-networks {
-    text-align: right;
-    margin-right: 20px;
+    padding-right: 40px;
 }
 
 .social-networks>li {
@@ -459,20 +461,18 @@ ul {
 }
 
 .social-networks i {
-    font-size: 130%;
-    padding: 1%;
+    font-size: 150%;
+    padding: 12px;
     color: black;
 }
 
-.tab {
-    display: inline-block;
-    margin-left: 40px;
-}
-
 i {
-    margin: 4px;
     padding-top: 3px;
     float: right;
+}
+
+.tab {
+    padding: 20px;
 }
 
 /* MEDIA QUERIES */
@@ -492,14 +492,6 @@ i {
     }
 
     /* 'banner' across top of all pages */
-    .banner {
-        height: 2.19em;
-        width: 93%;
-        margin-left: 0.5em;
-        padding-top: 0.5em;
-        padding-left: 0.8em;
-    }
-    
     .banner>h2 {
         font-size: 110%;
     }
@@ -567,16 +559,11 @@ i {
 
     /* footer */
     #footer {
-        width: 92%;
+        padding-left: 1.25em;
     }
 
     .social-networks {
-        margin-right: 0.625em;
-    }
-
-    .tab {
-        display: inline-block;
-        margin-left: 2.1875em;
+        padding-right: 2.8125em;
     }
 }
 
@@ -625,10 +612,8 @@ i {
     }
 
     .banner {
-        height: 1.875em;
-        width: 93%;
-        margin-left: 0.5em;
-        padding-top: 0.5em;
+        height: 2.1875em;
+        padding-top: 0.75em;
         padding-left: 0.94em;
     }
    
@@ -636,6 +621,10 @@ i {
         font-size: 90%;
     }
 
+    .banner>h2>span {
+        padding-right: 2.1875em;
+    }
+        
     /* main text section on 'homepage'*/
     .main-body-homepage {
         font-size: 80%;
@@ -724,17 +713,22 @@ i {
 
     /* footer */
     #footer {
-        height: 4.0625em;
-        width: 96%;
-        font-size: small;
+        height: 73px;
+        padding-left: 30px;
     }
 
     .social-networks i {
+        padding: 15px;
         font-size: 140%;
+        
     }
 
     .tab {
-     margin-left: 7.5em;
+        padding: 25px;
+    }
+
+    .tab::after {
+        content: "\a";
     }
 }
 
@@ -780,21 +774,19 @@ i {
     }
 
     .banner {
-        height: 1.3em;
-        width: 90%;
-        margin-left: 0;
+        height: 1.5625em;
         padding-top: 0.4em;
-        padding-left: 5px;
+        padding-left: 0.625em;
     }
    
     .banner>h2 {
-        font-size: 65%;
+        font-size: 75%;
         letter-spacing: normal;
     }
 
     .banner>h2>span {
         float: right;
-        padding-right: 0.625em;
+        padding-right: 1.875em;
     }
     
     /* main text section on 'homepage'*/
@@ -953,16 +945,25 @@ i {
 
     /* footer */
     #footer {
-        height: 8.5em;
-        width: 85%;
-        font-size: smaller;
+        height: 11.875em;
+        padding-left: 0.8125em;
     }
 
-    .social-networks {
-        margin-right: 0.625em;
+    .social-networks i {
+        padding: 5px 10px 5px 10px;
+        margin: 10px;
+        font-size: 160%; 
+    }   
+    
+    i {
+        float: left;
+    }
+
+    address {
+        float: left;
     }
 
     .tab {
-        margin-left: 5.75em;
+        padding: 2.5em;
     }
 }
