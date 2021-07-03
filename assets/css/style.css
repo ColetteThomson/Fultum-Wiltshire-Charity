@@ -112,7 +112,7 @@ h4 {
     background-color: #ffca4b;
     height: 45px;
     width: 100%;
-    margin: 0;
+    position: absolute; left: 0;
     padding-top: 15px;
     padding-left: 30px;
 }
@@ -200,7 +200,7 @@ a:hover h2.banner-link {
 
 /* main text section for pages: 'what we do'; 'get social'; 'about us' */
 #text-image-container {
-    margin-top: 30px;
+    margin-top: 70px;
     height: fit-content;
 }
 
@@ -650,6 +650,10 @@ i {
     }
 
     /* main text section for pages: 'what we do'; 'get social'; 'about us' */
+    #text-image-container {
+        margin-top: 3.75em;
+    }
+    
     .main-body-left {
         width: 65%;
     } 
@@ -833,19 +837,19 @@ i {
 
     /* main text section for pages: 'what we do'; 'get social'; 'about us' */
     #text-image-container {
-        margin-top: 0.625em;
+        margin-top: 40px;
     }
 
     .main-body-left {
         width: 90%;
-        padding: 10px 0;
+        padding: 10px 10px;
         clear: both;
     } 
 
     .main-body-right {
         width: 90%;
         float: left;
-        padding: 10px 0;
+        padding: 10px 10px;
         margin-left: 0;
         margin-right: 0;
     } 
