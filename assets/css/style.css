@@ -146,6 +146,7 @@ a:hover h2.banner-link {
 .container {
     position: relative;
     margin-top: 90px;
+    margin-bottom: 5px;
     text-align: left;
     color: #0463bb;
 }
@@ -153,14 +154,12 @@ a:hover h2.banner-link {
 .main-body-homepage {
     float: right;
     width: 80%;
-    /*height: fit-content;*/
-    padding-top: 50px;
+    padding-top: 25px;
     padding-left: 100px;
     right: 20px;
     left: 20px;
     top: 30px;
     position: absolute;
-    /*clear: both;*/
 }
 
 .main-body-homepage>h2 {
@@ -172,18 +171,18 @@ a:hover h2.banner-link {
 
 /*homepage - 'do you need support' blocks */
 .body-right-homepage {
-    width: 280px;
-    height: 380px;
+    width: 290px;
+    height: 310px;
     display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    margin-top: 40px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
     margin-left: 20px;
     background-color: rgba(206, 81, 8, .7);
     color: white;
     letter-spacing: 2px;
-    font-size: 150%;
+    font-size: 140%;
 } 
 
 .body-right-homepage>h2 {
@@ -192,11 +191,11 @@ a:hover h2.banner-link {
 
 .image-left-homepage {
     float: left;
-    height: 380px;
+    height: 300px;
     width: 25%;
-    margin-left: 220px;
+    margin-left: 180px;
     padding: 8px 8px;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-right: 0;
     border-style: solid solid;
     border-color: #ce5108;
@@ -212,8 +211,8 @@ a:hover h2.banner-link {
     width: 70%;
     height: fit-content;
     float: right;
-    padding: 10px 10px;
-    margin-right: 50px;
+    padding: 5px 5px;
+    margin-right: 45px;
 } 
 
 .video {
@@ -230,6 +229,11 @@ a:hover h2.banner-link {
 }
 
 /* main text section for pages: 'what we do'; 'about us' */
+#text-image-container {
+    margin-top: 70px;
+    height: fit-content;
+}
+
 .main-body-left {
     width: 70%;
     height: fit-content;
@@ -290,6 +294,7 @@ cite {
     width: 20%;
     margin-left: 30px;
     margin-right: 10px;
+    margin-bottom: 30px;
     padding: 8px 8px;
     top: 30px;
     right: 20px;
@@ -396,6 +401,7 @@ ul {
     column-count: 4;
     column-gap: 0px;
     margin: 0;
+    margin-bottom: 10px;
 }
 
 #photo-gallery img{
@@ -411,9 +417,9 @@ ul {
 #form {
     clear: left;
     height: 500px;
-    width: 70%;
+    width: 68%;
     margin-left: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background: url(../images/multiple-helping-hands.jpg);
     background-size: contain; 
     background-position: center;
@@ -421,12 +427,12 @@ ul {
 }
 
 .query-form {
-    margin-left: 240px;
+    margin-left: 220px;
     margin-top: 30px;
     color: #3a3a3a;
     background-color: rgba(233, 227, 227, .8);
     height: 420px;
-    max-width: 35%;
+    max-width: 36%;
     position: absolute;
     padding: 10px;
 }
@@ -932,7 +938,7 @@ i {
     .main-body-homepage>h2 {
         line-height: 20px;
         margin: 0;
-        padding-bottom: 10px;
+        padding-bottom: 0.625em;
     }
 
     /*homepage - 'do you need support' blocks */
@@ -951,14 +957,14 @@ i {
 
     .body-right-homepage>h2 {
         font-size: 145%;
-        padding-bottom: 10px;
+        padding-bottom: 0.625em;
     }
 
     .image-left-homepage {
         height: 200px;
         width: 60%;
-        margin-top: 10px;
-        margin-left: 10px;
+        margin-top: 1.25em;
+        margin-left: 0.625em;
     }
 
     /* main text and video section for page: 'get social' */
@@ -980,31 +986,32 @@ i {
 
     /* main text section for pages: 'what we do'; 'about us' */
     #text-image-container {
-        margin-top: 40px;
+        margin-top: 2.5em;
         text-align: center;
     }
 
     .main-body-left {
         width: 90%;
-        padding: 10px 10px;
+        padding: 0.625em;
         clear: both;
     } 
 
     .main-body-right {
         width: 90%;
         float: left;
-        padding: 10px 10px;
+        padding: 0.625em;
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: 0.1325em;
         text-align: left;
     } 
 
     .main-body-right-2 {
         width: 90%;
         float: left;
-        padding: 10px 0px;
-        margin-left: 20px;
-        margin-right: 0px;
+        padding: 0.625em 0;
+        margin-left: 1.25em;
+        margin-right: 0;
     } 
 
     .main-body-right-3 {
