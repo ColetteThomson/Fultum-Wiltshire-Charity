@@ -200,12 +200,34 @@ a:hover h2.banner-link {
     border-color: #ce5108;
 }
 
-/* main text section for pages: 'what we do'; 'get social'; 'about us' */
-#text-image-container {
+/* main text and video section for page: 'get social' */
+#text-video-container {
     margin-top: 70px;
     height: fit-content;
 }
 
+.text-right {
+    width: 70%;
+    height: fit-content;
+    float: right;
+    padding: 10px 10px;
+    margin-right: 50px;
+} 
+
+.video {
+    float: left;
+    padding-left: 50px;
+}
+
+.text-left {
+    width: 97%;
+    height: fit-content;
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+
+/* main text section for pages: 'what we do'; 'about us' */
 .main-body-left {
     width: 70%;
     height: fit-content;
@@ -247,7 +269,7 @@ cite {
     font-size: small;
 }
 
-/* image blocks - left and right for pages: 'what we do'; 'get social'; 'about us'*/
+/* image blocks - left and right for pages: 'what we do'; 'about us'*/
 .image-left-1 {
     float: left;
     height: 150px;
@@ -537,8 +559,25 @@ i {
         width: 24%;
         margin-top: 30px;
     }
-            
-    /* main text section for pages: 'what we do'; 'get social'; 'about us' */
+     
+    /* main text and video section for page: 'get social' */
+    #text-video-container {
+        margin-top: 4.375em;
+        height: fit-content;
+    }
+
+    .text-right {
+        width: 62%;
+        padding: 0.625em;
+        margin-right: 2.1875em;
+    } 
+
+    .video {
+        float: left;
+        padding-left: 0.9375em;
+    }
+
+    /* main text section for pages: 'what we do'; 'about us' */
     .main-body-left {
         width: 68%;
     } 
@@ -553,7 +592,7 @@ i {
         margin-right: 3.5em;
     }
 
-    /* image blocks - left and right for pages: 'what we do'; 'get social'; 'about us'*/
+    /* image blocks - left and right for pages: 'what we do'; 'about us'*/
     .image-left-1 {
         float: left;
         height: 9.375em;
@@ -694,7 +733,31 @@ i {
         margin-left: 130px;
     }
 
-    /* main text section for pages: 'what we do'; 'get social'; 'about us' */
+    /* main text and video section for page: 'get social' */
+    #text-video-container {
+       margin-top: 3.75em;
+    }
+
+   .text-right {
+       width: 50%;
+       padding-top: 0.3125em;
+       padding-left: 0;
+    } 
+
+   .video {
+       float: left;
+       padding-left: 0.625em;
+       padding-top: 0;
+    }
+
+    .text-left {
+        width: 97%;
+        height: fit-content;
+        float: left;
+        padding: 0.625em;
+    }
+
+    /* main text section for pages: 'what we do'; 'about us' */
     #text-image-container {
         margin-top: 3.75em;
     }
@@ -718,7 +781,7 @@ i {
         width: 66%;
     }
 
-    /* image blocks - left and right for pages: 'what we do'; 'get social'; 'about us'*/
+    /* image blocks - left and right for pages: 'what we do'; 'about us'*/
     .image-left-2 {
         height: 9.0625em;
         width: 22%;
@@ -856,7 +919,6 @@ i {
     .container>img {
         height: 700px;
         visibility: hidden;
-        
     }
     
     .main-body-homepage {
@@ -897,7 +959,24 @@ i {
         margin-left: 10px;
     }
 
-    /* main text section for pages: 'what we do'; 'get social'; 'about us' */
+    /* main text and video section for page: 'get social' */
+    #text-video-container {
+        margin-top: 1.875em;
+    }
+ 
+    .text-right {
+        width: 97%;
+        float: left;
+        padding-top: 0.3125em;
+        padding-left: 0;
+    } 
+ 
+    .text-left {
+        width: 97%;
+        padding-left: 0;
+    }
+
+    /* main text section for pages: 'what we do'; 'about us' */
     #text-image-container {
         margin-top: 40px;
         text-align: center;
@@ -943,7 +1022,7 @@ i {
         letter-spacing: normal;
     }
 
-    /* image blocks - left and right for pages: 'what we do'; 'get social'; 'about us'*/
+    /* image blocks - left and right for pages: 'what we do'; 'about us'*/
     .image-left-1 {
         height: 8.125em;
         width: 50%;
