@@ -410,31 +410,19 @@ ul {
 }
 
 /*query form at bottom of 'about us' page */
-#form-contact {
-    clear: both;
-}
-
-#form {
+.query-form {
     clear: left;
-    height: 500px;
-    width: 68%;
-    margin-left: 150px;
-    margin-bottom: 40px;
-    background: url(../images/multiple-helping-hands.jpg);
+    margin-left: 430px;
+    margin-top: 30px;
+    color: black;
+    height: 420px;
+    max-width: 36%;
+    padding: 10px;
+    margin-bottom: 30px;
+    background: url(../images/multiple-helping-hands_filter2.jpg);
     background-size: contain; 
     background-position: center;
     background-repeat: no-repeat;
-}
-
-.query-form {
-    margin-left: 220px;
-    margin-top: 30px;
-    color: #3a3a3a;
-    background-color: rgba(233, 227, 227, .8);
-    height: 420px;
-    max-width: 36%;
-    position: absolute;
-    padding: 10px;
 }
 
 .query-form>h2 {
@@ -474,7 +462,7 @@ ul {
 
 /* footer */
 #footer {
-    height: 50px;
+    height: 100px;
     width: 100%;
     margin: 0;
     padding-left: 30px;
@@ -502,10 +490,6 @@ ul {
 i {
     padding-top: 3px;
     float: right;
-}
-
-.tab {
-    padding: 20px;
 }
 
 /* MEDIA QUERIES */
@@ -620,16 +604,10 @@ i {
     }
 
     /*query form at bottom of 'about us' page */
-    #form {
-        height: 500px;
-        width: 70%;
-        margin-left: 150px;
-    }
-
     .query-form {
-        margin-left: 90px;
-        margin-top: 30px;
-        height: 420px;
+        margin-left: 15.3125em;
+        margin-top: 1.875em;
+        height: 26.25em;
         max-width: 50%;
     }
 
@@ -816,14 +794,8 @@ i {
     }
 
     /*query form at bottom of 'about us' page */
-    #form {
-        height: 31.25em;
-        width: 80%;
-        margin-left: 4.0625em;
-    }
-
     .query-form {
-        margin-left: 1.8125em;
+        margin-left: 6.875em;
         margin-top: 1.875em;
         height: 26.25em;
         max-width: 70%;
@@ -836,22 +808,13 @@ i {
 
     /* footer */
     #footer {
-        height: 73px;
-        padding-left: 30px;
+        height: 5.9375em;
+        padding-left: 1.875em;
     }
 
     .social-networks i {
         padding: 15px;
         font-size: 140%;
-        
-    }
-
-    .tab {
-        padding: 25px;
-    }
-
-    .tab::after {
-        content: "\a";
     }
 }
 
@@ -1057,6 +1020,7 @@ i {
         width: 60%;
         float: left;
         margin-top: 0;
+        margin-bottom: 1.25em;
     }
         
     .image-left-portrait {
@@ -1095,19 +1059,12 @@ i {
     }
 
     /*query form at bottom of 'about us' page */
-    #form {
-        height: 21.875em;
-        margin-left: 0;
-        margin-top: 3.125em;
-        margin-bottom: 12.5em;
-        background: none;
-    }
-
     .query-form {
         margin-left: 0;
-        margin-top: 1.25em;
-        height: 30em;
+        margin-right: 0;
+        height: 31.25em;
         max-width: 100%;
+        background-size: cover; 
     }
 
     .query-form>h2 {
@@ -1116,14 +1073,14 @@ i {
 
     /* footer */
     #footer {
-        height: 11.875em;
+        height: 8.75em;
         padding-left: 0.8125em;
     }
 
     .social-networks i {
         padding: 5px 10px 5px 10px;
         margin: 10px;
-        font-size: 120%; 
+        font-size: 90%; 
     }   
     
     i {
@@ -1132,9 +1089,5 @@ i {
 
     address {
         float: left;
-    }
-
-    .tab {
-        padding: 2.5em;
     }
 }
