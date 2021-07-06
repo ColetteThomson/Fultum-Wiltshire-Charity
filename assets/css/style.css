@@ -103,8 +103,6 @@ h4 {
     font-size: 140%;
     letter-spacing: normal;
     color: #3a3a3a;
-    /*margin-right: 300px;
-    padding-left: 30px;*/
     padding-left: 60px;
     padding-right: 60px;
     text-align: center;
@@ -142,6 +140,31 @@ a:hover h2.banner-link {
     color: #ce5108;
 }
 
+/* newsflash on home page */
+.newsflash {
+    color: white;
+    background-color: #800000;
+    font-size: 120%;
+    text-align: center;
+    padding: 5px;
+
+    /* animate zoom effect on page load */
+    animation-name: zoom;
+    animation-delay: 1s;
+    animation-duration: 4s;
+    animation-iteration-count: 2.5 ;
+}
+
+    /* creates zoom level for 'newsflash; */
+    @keyframes zoom {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
 /* main text section on 'homepage'*/
 .container {
     position: relative;
@@ -149,13 +172,13 @@ a:hover h2.banner-link {
     margin-bottom: 5px;
     text-align: left;
     color: #0463bb;
+    height: 900px;
 }
 
 .main-body-homepage {
-    float: right;
     width: 80%;
-    padding-top: 25px;
-    padding-left: 100px;
+    padding-top: 5px;
+    padding-left: 130px;
     right: 20px;
     left: 20px;
     top: 30px;
@@ -170,32 +193,36 @@ a:hover h2.banner-link {
 }
 
 /*homepage - 'do you need support' blocks */
-.body-right-homepage {
+.body-left-homepage {
+    float: left;
     width: 290px;
     height: 310px;
-    display: inline-block;
+    /*display: inline-block;*/
     padding-left: 15px;
     padding-right: 10px;
     padding-top: 10px;
-    margin-top: 30px;
-    margin-left: 20px;
+    margin-top: 15px;
+    margin-left: 250px;
+    /*margin-left: 20px;*/
     background-color: rgba(206, 81, 8, .7);
     color: white;
     letter-spacing: 2px;
     font-size: 140%;
 } 
 
-.body-right-homepage>h2 {
+.body-left-homepage>h2 {
     color: #800000;
 }
 
-.image-left-homepage {
-    float: left;
+.image-right-homepage {
+    /*float: left;*/
+    display: inline-block;
     height: 300px;
     width: 25%;
-    margin-left: 180px;
+    margin-left: 250px;
     padding: 8px 8px;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
     margin-right: 0;
     border-style: solid solid;
     border-color: #ce5108;
@@ -462,8 +489,9 @@ ul {
 
 /* footer */
 #footer {
-    height: 100px;
+    height: 62px;
     width: 100%;
+    font-size: x-small;
     margin: 0;
     padding-left: 30px;
     padding-top: 3px;
@@ -482,13 +510,14 @@ ul {
 }
 
 .social-networks i {
-    font-size: 150%;
-    padding: 12px;
+    font-size: 250%;
+    padding: 25px;
+    padding-top: 15px;
     color: black;
 }
 
 i {
-    padding-top: 3px;
+    padding-top: 1px;
     float: right;
 }
 
@@ -518,35 +547,44 @@ i {
         font-size: 110%;
     }
     
+    /* newsflash on home page */
+    .newsflash {
+        font-size: 115%;
+    }
+
     /* main text section on 'homepage'*/
+    .container {
+        height: 700px;
+    }
+
     .main-body-homepage {
-        width: 90%;
-        padding: 0.5em;
-        left: 2em;
+        width: 80%;
+        padding-left: 50px;
     }
 
     .main-body-homepage>h2 {
         font-size: 160%;
         letter-spacing: 2px;
-        line-height: 1.875em;
+        line-height: 25px;
     }
     
     /*homepage - 'do you need support' blocks */
-    .body-right-homepage {
+    .body-left-homepage {
         width: 230px;
         height: 290px;
         margin-top: 30px;
+        margin-left: 150px;
         padding-left: 20px;
         padding-right: 15px;
         padding-top: 15px;
         font-size: 130%;
     } 
 
-    .body-right-homepage>h2 {
+    .body-left-homepage>h2 {
         font-size: 130%;
     }
 
-    .image-left-homepage {
+    .image-right-homepage {
         height: 290px;
         width: 24%;
         margin-top: 30px;
@@ -614,6 +652,7 @@ i {
     /* footer */
     #footer {
         padding-left: 1.25em;
+        height: 65px;
     }
 
     .social-networks {
@@ -676,9 +715,15 @@ i {
     .banner>h2>span {
         padding-right: 2.1875em;
     }
-        
+       
+    /* newsflash on home page */
+    .newsflash {
+        font-size: 114%;
+    }
+
     /* main text section on 'homepage'*/
     .container {
+        height: 520px;
         margin-top: 58px;
     }
 
@@ -696,10 +741,11 @@ i {
     }
 
     /*homepage - 'do you need support' blocks */
-    .body-right-homepage {
+    .body-left-homepage {
         width: 170px;
         height: 205px;
         margin-top: 30px;
+        margin-left: 130px;
         padding-left: 20px;
         padding-right: 15px;
         padding-top: 15px;
@@ -707,16 +753,15 @@ i {
         line-height: 20px;
     } 
 
-    .body-right-homepage>h2 {
+    .body-left-homepage>h2 {
         font-size: 140%;
         padding-bottom: 10px;
     }
 
-    .image-left-homepage {
+    .image-right-homepage {
         height: 200px;
         width: 22%;
         margin-top: 30px;
-        margin-left: 130px;
     }
 
     /* main text and video section for page: 'get social' */
@@ -808,13 +853,14 @@ i {
 
     /* footer */
     #footer {
-        height: 5.9375em;
+        height: 65px;
         padding-left: 1.875em;
     }
 
     .social-networks i {
-        padding: 15px;
-        font-size: 140%;
+        padding: 25px;
+        padding-top: 16px;
+        font-size: 250%;
     }
 }
 
@@ -823,7 +869,7 @@ i {
 /* headings and logo */
 @media screen and (max-width: 430px) {
     #logo {
-        font-size: 100%;
+        font-size: 130%;
         margin-left: 1em;
     }
 
@@ -882,14 +928,25 @@ i {
         padding-right: 1.875em;
     }
     
+    /* newsflash on home page */
+    .newsflash {
+        font-size: 98%;
+    }
+
     /* main text section on 'homepage'*/
     .container {
         margin-top: 110px;
+        margin-bottom: 2px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+        width: 100%;
+        height: 700px
     }
 
     .container>img {
-        height: 700px;
-        visibility: hidden;
+        height: 288px;
+        width: 100%
     }
     
     .main-body-homepage {
@@ -905,29 +962,31 @@ i {
     }
 
     /*homepage - 'do you need support' blocks */
-    .body-right-homepage {
-        float: left;
-        width: 167px;
-        height: 205px;
-        margin-top: 10px;
-        margin-left: 10px;
-        padding-left: 15px;
-        padding-right: 10px;
-        padding-top: 15px;
+    .body-left-homepage {
+        width: 100%;
+        height: 150px;
+        margin-top: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 10px;
         font-size: 145%;
         line-height: 20px;
     } 
 
-    .body-right-homepage>h2 {
+    .body-left-homepage>h2 {
         font-size: 145%;
         padding-bottom: 0.625em;
     }
 
-    .image-left-homepage {
+    .image-right-homepage {
+        float: left;
         height: 200px;
         width: 60%;
-        margin-top: 1.25em;
-        margin-left: 0.625em;
+        margin-top: 1px;
+        margin-left: 50px;
     }
 
     /* main text and video section for page: 'get social' */
@@ -998,13 +1057,13 @@ i {
     .image-left-1 {
         height: 8.125em;
         width: 50%;
-        margin-left: 0.3125em;
+        margin-left: 67px;
     }
 
     .image-left-2 {
         height: 8.125em;
         width: 50%;
-        margin-left: 2.1875em;
+        margin-left: 60px;
         margin-top: 1.25em;
     }
 
@@ -1020,6 +1079,7 @@ i {
         width: 60%;
         float: left;
         margin-top: 0;
+        margin-left: 60px;
         margin-bottom: 1.25em;
     }
         
@@ -1032,13 +1092,14 @@ i {
 
     .image-left-portrait-2 {
         margin-top: 0;
+        margin-left: 80px;
         height: 10em;
         width: 40%;
     }
 
     .image-left-portrait-3 {
         margin-top: 0.625em;
-        margin-left: 1.125em;
+        margin-left: 80px;
         height: 10.625em;
         width: 40%;
     }
@@ -1073,14 +1134,16 @@ i {
 
     /* footer */
     #footer {
-        height: 8.75em;
-        padding-left: 0.8125em;
+        height: 100px;
+        /*padding-left: 25px;*/
     }
 
     .social-networks i {
-        padding: 5px 10px 5px 10px;
-        margin: 10px;
-        font-size: 90%; 
+        padding-left: 0;
+        padding-right: 35px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 230%; 
     }   
     
     i {
@@ -1089,5 +1152,6 @@ i {
 
     address {
         float: left;
+        padding-left: 0.9375em;
     }
 }
