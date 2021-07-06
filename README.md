@@ -112,7 +112,7 @@ As there no JavaScript functionality, the Query Form on the 'About Us' page will
 * Testing of the Query Form to ensure correct field input, and that all required fields are completed.
 * Testing of the video link to ensure the user has to click 'play' to run the video and that the video does not play automatically upon opening of the web page.
 
-The live project can be found [here](https://colettethomson.github.io/Fultum-Wiltshire-Charity/index.html)
+The live project can be found [here](https://colettethomson.github.io/Fultum-Wiltshire-Charity/assets/index.html)
 
 
 
