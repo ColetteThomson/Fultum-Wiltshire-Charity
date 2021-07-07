@@ -117,6 +117,9 @@ This results in a browser error message when the 'submit' button is pressed.
 
 The live project can be found [here](https://colettethomson.github.io/Fultum-Wiltshire-Charity/assets/index.html)
 
+### Test Cases
+Test cases [here](../assets/README_supporting-docs/fultum-wiltshire_test-cases.jpg)
+
 ### Issues found during testing
 * Query form submission:  upon clicking the 'submit' button, the inputted data should be 'posted' to an external database.  This is not occurring due to the web site limitation of no JavaScript functionality.
 * Testing across Chrome, Firefox and Opera:  In the Opera mobile screen view of the 'Home' page, the 'How can we support you' box slightly overlaps the above main image.  Readability and usability of this page is not affected by this box overlap.
