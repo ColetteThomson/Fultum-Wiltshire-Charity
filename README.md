@@ -118,7 +118,7 @@ This results in a browser error message when the 'submit' button is pressed.
 The live project can be found [here](https://colettethomson.github.io/Fultum-Wiltshire-Charity/assets/index.html)
 
 ### Test Cases
-Test cases [here](../assets/README_supporting-docs/fultum-wiltshire_test-cases.jpg)
+Test cases [here](assets/images/fultum-wiltshire_test-cases.jpg)
 
 ### Issues found during testing
 * Query form submission:  upon clicking the 'submit' button, the inputted data should be 'posted' to an external database.  This is not occurring due to the web site limitation of no JavaScript functionality.
