@@ -198,12 +198,12 @@ a:hover h2.banner-link {
 .body-left-homepage {
   clear: both;
   float: left;
-  width: 290px;
-  height: 300px;
+  width: 285px;
+  height: 320px;
   padding-left: 15px;
   padding-right: 10px;
   padding-top: 10px;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 240px;
   margin-bottom: 10px;
   background-color: rgba(206, 81, 8, 0.7);
@@ -218,10 +218,10 @@ a:hover h2.banner-link {
 
 .image-right-homepage {
   display: inline-block;
-  height: 290px;
+  height: 310px;
   width: 25%;
   padding: 8px 8px;
-  margin-top: 15px;
+  margin-top: 10px;
   margin-left: 20px;
   margin-bottom: 10px;
   margin-right: 0;
@@ -293,10 +293,6 @@ a:hover h2.banner-link {
   float: right;
   padding: 10px 10px;
   margin-right: 40px;
-}
-
-figcaption {
-  font-size: small;
 }
 
 cite {
@@ -699,13 +695,13 @@ i {
   }
 
   .byline-homepage {
-    height: 2.5em;
+    height: 190px;
     padding-top: 0.5em;
     padding-bottom: 0.625em;
   }
 
   .byline-homepage > h2 {
-    font-size: 95%;
+    font-size: 110%;
     padding-left: 2.1875em;
   }
 
@@ -719,38 +715,38 @@ i {
 
   /* newsflash on home page */
   .newsflash {
-    font-size: 114%;
+    font-size: 100%;
   }
 
   /* main text section on 'homepage'*/
   .container {
-    height: 520px;
-    margin-top: 58px;
+    height: 700px;
+    margin-top: 90px;
   }
 
   .main-body-homepage {
-    font-size: 80%;
+    font-size: 100%;
     width: 92%;
-    line-height: 10px;
+    line-height: 15px;
     padding: 1em;
-    top: 8px;
+    top: 12px;
     left: 1.7em;
   }
 
   .main-body-homepage > h2 {
-    line-height: 30px;
+    line-height: 34px;
   }
 
   /*homepage - 'do you need support' blocks */
   .body-left-homepage {
-    width: 170px;
+    width: 200px;
     height: 205px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 130px;
     padding-left: 20px;
     padding-right: 15px;
     padding-top: 15px;
-    font-size: 120%;
+    font-size: 110%;
     line-height: 20px;
   }
 
@@ -762,7 +758,7 @@ i {
   .image-right-homepage {
     height: 200px;
     width: 22%;
-    margin-top: 30px;
+    margin-top: 40px;
   }
 
   /* main text and video section for page: 'get social' */
@@ -896,7 +892,9 @@ i {
 
   #menu li {
     float: right;
-    margin-right: 1em;
+    padding: 5px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   /* 'banner' across top of all pages */
