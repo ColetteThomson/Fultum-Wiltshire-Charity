@@ -13,7 +13,7 @@ The live project can be found [here](https://colettethomson.github.io/Fultum-Wil
 
 ## Mockup of the Fultum Wiltshire Charity website
 
-![Website Mockup]()
+![Website Mockup](/assets/images/website_mockup.jpg)
 
 ## User Experience Design
 
