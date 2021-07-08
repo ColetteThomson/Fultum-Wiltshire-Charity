@@ -78,8 +78,14 @@ All headings and the logo are using **Roboto** and the body text is using **Popp
 Images for the website have been downloaded from **Pexels**.  The icons (logo and social media) were downloaded from **Font Awesome**.  Some of the links were created using **Bootstrap**. The video was downloaded from ....
 
 #### Wireframes
-*insert wireframes here*
-*links for pdfs*
+Home Page <br>
+![Home Page Wireframe](assets/images/fwc_home-page_wireframe.png) <br>
+What We Do Page <br>
+![What We Do Wireframe](assets/images/fwc_what-we-do-page_wireframe.png) <br>
+Get Social Page <br>
+![Get Social Wireframe](assets/images/fwc_get-social-page_wireframe.png) <br>
+About Us Page <br>
+![About Us Wireframe](assets/images/fwc_about-us-page_wireframe.png) <br>
 
 #### Differences in Design Display
 The background image to the Query Form on the 'About Us' page has been removed from the mobile phone display to allow for better readability of the query form.
@@ -118,7 +124,11 @@ This results in a browser error message when the 'submit' button is pressed.
 The live project can be found [here](https://colettethomson.github.io/Fultum-Wiltshire-Charity/assets/index.html)
 
 ### Test Cases
-Test cases [here](assets/images/fultum-wiltshire_test-cases.jpg)
+Test cases can be found [here](assets/images/fultum-wiltshire_test-cases.jpg)
+
+### Code Validation
+All HTML pages were run through the [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) and showed no errors.<br>
+The CSS file was run through the [CSS Validation Service-Jigsaw](https://jigsaw.w3.org/css-validator/) and showed no errors.<br>
 
 ### Issues found during testing
 * Query form submission:  upon clicking the 'submit' button, the inputted data should be 'posted' to an external database.  This is not occurring due to the web site limitation of no JavaScript functionality.
@@ -126,7 +136,7 @@ Test cases [here](assets/images/fultum-wiltshire_test-cases.jpg)
 
 ## Deployment
 ### Project Creation
-The project was created using GitHub and choosing a new [repository](https://github.com/ColetteThomson/Fultum-Wiltshire-Charity).
+The project was created using GitHub and choosing a new [repository](https://github.com/ColetteThomson/Fultum-Wiltshire-Charity).<br>
 The following terminal commands were used during this project:
 * git add . - this command adds a change in the working directory to the staging area.
 * git commit -m "*message*" - this command detailed the change/s made in the 'message' section and then committed the changes to the local repository.
@@ -141,7 +151,7 @@ The following terminal commands were used during this project:
 
 ## Credits
 ### Code
-The private collaboration and knowledge sharing SaaS platform [Stack Overflow](https://stackoverflow.com/) was an invaluable resource for general coding questions, confirmations etc.
+The private collaboration and knowledge sharing SaaS platform [Stack Overflow](https://stackoverflow.com/) was an invaluable resource for general coding queries.
 
 ### Content
 Inspiration for website content was taken from [Royal Voluntary Service](https://www.royalvoluntaryservice.org.uk/).  The idea for a charity was devised from an actual need in my immediate local community.
